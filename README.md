@@ -1,4 +1,4 @@
-![License](https://img.shields.io/github/license/alesimula/murine-sdp)
+[![](https://jitpack.io/v/alesimula/murine-sdp.svg)](https://jitpack.io/#alesimula/murine-sdp) [![Build Status](https://img.shields.io/badge/build-passing-blue.svg)](https://jitpack.io/#alesimula/murine-sdp) [![License](https://img.shields.io/github/license/alesimula/murine-sdp)](https://github.com/alesimula/murine-sdp/blob/master/LICENSE)
 
 # SDP - a scalable size unit
 An android lib that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size. It can help Android developers with supporting multiple screens.
@@ -21,21 +21,27 @@ And here is the same layout built using dp:
 
 You can see that sdp scales with the screen size and the dp stays with the same size on all screen sizes.
 
+# Installation
+
+Add the JitPack repository to your root `build.gradle` (or `settings.gradle`):
+
+```gradle
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Then add the dependency:
+
+```gradle
+    implementation 'com.github.alesimula:murine-sdp:1.1.2'
+```
+
 # Getting Started
 
-To add sdp to your project (Using Android Studio and Gradle): 
-
-  add implementation 'com.github.alesimula.murine-sdp:sdp-android:1.1.2' to your build.gradle dependencies block.
-  
-  for example:
-  
-  ```
-  dependencies {
-    implementation 'com.github.alesimula.murine-sdp:sdp-android:1.1.2'
-  }
-  ```
-
-Then reference the values by name. Note the `@fraction/` prefix and the zero padding, both of which differ from upstream:
+Reference the values by name. Note the `@fraction/` prefix and the zero padding, both of which differ from upstream:
 
 ```xml
 <TextView

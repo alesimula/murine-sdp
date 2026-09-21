@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
+
+version = '1.1.2'
 
 // Fork of intuit/sdp, with two changes that keep it small in the consuming app:
 //   - values live on the `fraction` type, not `dimen`, so sdp's 28 buckets don't drag
@@ -22,6 +25,20 @@ android {
     sourceSets {
         getByName("main") {
             res.srcDirs("src/main/res")
+        }
+    }
+}
+
+// Published by JitPack from a git tag: com.github.alesimula:murine-sdp:<tag>
+// Gradle wrapper is kept in the repo so I can build locally
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.alesimula'
+                artifactId = 'murine-sdp'
+            }
         }
     }
 }
