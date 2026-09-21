@@ -1,139 +1,68 @@
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
-apply plugin: 'signing'
-
-buildscript {
-    repositories {
-        mavenCentral()
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.3.1'
-    }
+plugins {
+    id 'com.android.library'
 }
 
-repositories {
-    mavenCentral()
-    maven {
-        url 'https://maven.google.com/'
-        name 'Google'
-    }
-}
+// Fork of intuit/sdp, with two changes that keep it small in the consuming app:
+//   - values live on the `fraction` type, not `dimen`, so sdp's 28 buckets don't drag
+//     every dimen in the app along with them (~288 KB saved here)
+//   - names are zero-padded (_042sdp), so ids sort numerically and the table can stop
+//     just past the largest value actually used
+// Don't move them back to `dimen` and don't add unpadded aliases.
+// src/main/res/values*/ is generated; don't edit by hand. Change unit, positiveMax or
+// negativeMax in the createSDP task at the end of this file and run that task to rewrite.
 
 android {
-    namespace 'com.intuit.sdp'
+    namespace = "com.intuit.sdp"
+    compileSdk = 36
+
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 34
-        compileSdk 34
+        minSdk = 26
+    }
+
+    sourceSets {
+        getByName("main") {
+            res.srcDirs("src/main/res")
+        }
     }
 }
 
 class SDPFactory extends DefaultTask {
 
-    @Input
-    String unit = "dp"
-    @Input
-    double positiveMax = 600
-    @Input
-    double negativeMax = 60
+    @Input String unit = "dp"
+    @Input double positiveMax = 600
+    @Input double negativeMax = 60
 
     @TaskAction
     def create() {
-        String resFolder =  project.getProjectDir().getPath() + "/src/main/res/"
-        for(double dimen = 300; dimen <= 1080 ; dimen = dimen + 30){
-            String folder = resFolder + "values-sw" + (int)dimen + "dp"
-            String fileName = folder + "/positive_sdps.xml"
-            new File(folder).mkdir()
-            new File(fileName).createNewFile()
-            PrintWriter printWriter = new PrintWriter(fileName)
-            printWriter.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>")
-            printWriter.println("<resources>")
-            for(int i=1; i<=positiveMax; i++){
-                double ratio = i/300d
-                double sdp = ratio*dimen
-                printWriter.printf("\t<dimen name=\"_%dsdp\">%.2f" + unit + "</dimen>\r\n",i,sdp)
-            }
-            printWriter.println("</resources>")
-            printWriter.close()
+        String resFolder = project.projectDir.path + "/src/main/res/"
+        for (double dimen = 300; dimen <= 1080; dimen += 30) {
+            String folder = resFolder + "values-sw" + (int) dimen + "dp"
+            new File(folder).mkdirs()
+            write(folder + "/positive_sdps.xml", 1, (int) positiveMax, dimen, "_%03dsdp", 1)
+            write(folder + "/negative_sdps.xml", 1, (int) negativeMax, dimen, "_minus%03dsdp", -1)
         }
-        for(double dimen = 300; dimen <= 1080; dimen = dimen + 30){
-            String folder = resFolder + "values-sw" + (int)dimen + "dp"
-            String fileName = folder + "/negative_sdps.xml"
-            new File(folder).mkdir()
-            new File(fileName).createNewFile()
-            PrintWriter printWriter = new PrintWriter(fileName)
-            printWriter.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>")
-            printWriter.println("<resources>")
-            for(int i=1;i<=negativeMax;i++){
-                double ratio = i/300d
-                double sdp = ratio*dimen
-                printWriter.printf("\t<dimen name=\"_minus%dsdp\">%.2f" + unit + "</dimen>\r\n",i,-sdp)
-            }
-            printWriter.println("</resources>")
-            printWriter.close()
+        // Baseline bucket: sw300dp values, used when no sw qualifier matches.
+        new File(resFolder + "values").mkdirs()
+        write(resFolder + "values/positive_sdps.xml", 1, (int) positiveMax, 300, "_%03dsdp", 1)
+        write(resFolder + "values/negative_sdps.xml", 1, (int) negativeMax, 300, "_minus%03dsdp", -1)
+    }
+
+    private void write(String fileName, int from, int to, double dimen, String namePattern, int sign) {
+        PrintWriter w = new PrintWriter(fileName)
+        w.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>")
+        w.println("<resources>")
+        for (int i = from; i <= to; i++) {
+            // Custom type, not <dimen>: keeps these out of the app's dimen offset arrays.
+            w.printf("\t<item type=\"fraction\" name=\"" + namePattern + "\" format=\"dimension\">%.2f" + unit + "</item>\r\n",
+                    i, sign * (i / 300d) * dimen)
         }
+        w.println("</resources>")
+        w.close()
     }
 }
 
-task createSDP(type: SDPFactory) {
-}
-
-//uncomment next line to edit values
-//preBuild.dependsOn createSDP
-
-createSDP{
-    unit = "dp"//change to "sp" if needed
-    positiveMax = 600//change to 600 or any other value if needed
-    negativeMax = 60//change to 600 or any other value if needed
-}
-
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.intuit.sdp'
-            artifactId = 'sdp-android'
-            version = '1.1.1'
-            artifact("$buildDir/outputs/aar/sdp-android-release.aar")
-            pom {
-                name = 'sdp'
-                description = 'A scalable size unit for Andorid'
-                url = 'https://github.com/intuit/sdp'
-                licenses {
-                    license {
-                        name = 'The MIT License (MIT)'
-                        url = 'https://github.com/intuit/sdp/blob/master/LICENSE'
-                    }
-                }
-                developers {
-                    developer {
-                        id = developerID
-                        name = developerName
-                        email = developerEmail
-                    }
-                }
-                scm {
-                    connection = 'scm:git@github.com:intuit/sdp.git'
-                    developerConnection = 'scm:git@github.com:intuit/sdp.git'
-                    url = 'https://github.com/intuit/sdp'
-                }
-            }
-        }
-    }
-    repositories {
-        maven {
-            url sonatypeRepo
-            credentials {
-                username sonatypeUsername
-                password sonatypePassword
-            }
-        }
-    }
-}
-
-signing {
-    sign publishing.publications.release
+tasks.register('createSDP', SDPFactory) {
+    unit = "dp"          // "sp" for a scalable sp unit
+    positiveMax = 600    // each value costs 4 bytes x 28 buckets in the consuming app
+    negativeMax = 60
 }

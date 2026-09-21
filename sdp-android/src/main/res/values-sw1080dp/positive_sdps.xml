@@ -1,603 +1,603 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="_1sdp">3.60dp</dimen>
-	<dimen name="_2sdp">7.20dp</dimen>
-	<dimen name="_3sdp">10.80dp</dimen>
-	<dimen name="_4sdp">14.40dp</dimen>
-	<dimen name="_5sdp">18.00dp</dimen>
-	<dimen name="_6sdp">21.60dp</dimen>
-	<dimen name="_7sdp">25.20dp</dimen>
-	<dimen name="_8sdp">28.80dp</dimen>
-	<dimen name="_9sdp">32.40dp</dimen>
-	<dimen name="_10sdp">36.00dp</dimen>
-	<dimen name="_11sdp">39.60dp</dimen>
-	<dimen name="_12sdp">43.20dp</dimen>
-	<dimen name="_13sdp">46.80dp</dimen>
-	<dimen name="_14sdp">50.40dp</dimen>
-	<dimen name="_15sdp">54.00dp</dimen>
-	<dimen name="_16sdp">57.60dp</dimen>
-	<dimen name="_17sdp">61.20dp</dimen>
-	<dimen name="_18sdp">64.80dp</dimen>
-	<dimen name="_19sdp">68.40dp</dimen>
-	<dimen name="_20sdp">72.00dp</dimen>
-	<dimen name="_21sdp">75.60dp</dimen>
-	<dimen name="_22sdp">79.20dp</dimen>
-	<dimen name="_23sdp">82.80dp</dimen>
-	<dimen name="_24sdp">86.40dp</dimen>
-	<dimen name="_25sdp">90.00dp</dimen>
-	<dimen name="_26sdp">93.60dp</dimen>
-	<dimen name="_27sdp">97.20dp</dimen>
-	<dimen name="_28sdp">100.80dp</dimen>
-	<dimen name="_29sdp">104.40dp</dimen>
-	<dimen name="_30sdp">108.00dp</dimen>
-	<dimen name="_31sdp">111.60dp</dimen>
-	<dimen name="_32sdp">115.20dp</dimen>
-	<dimen name="_33sdp">118.80dp</dimen>
-	<dimen name="_34sdp">122.40dp</dimen>
-	<dimen name="_35sdp">126.00dp</dimen>
-	<dimen name="_36sdp">129.60dp</dimen>
-	<dimen name="_37sdp">133.20dp</dimen>
-	<dimen name="_38sdp">136.80dp</dimen>
-	<dimen name="_39sdp">140.40dp</dimen>
-	<dimen name="_40sdp">144.00dp</dimen>
-	<dimen name="_41sdp">147.60dp</dimen>
-	<dimen name="_42sdp">151.20dp</dimen>
-	<dimen name="_43sdp">154.80dp</dimen>
-	<dimen name="_44sdp">158.40dp</dimen>
-	<dimen name="_45sdp">162.00dp</dimen>
-	<dimen name="_46sdp">165.60dp</dimen>
-	<dimen name="_47sdp">169.20dp</dimen>
-	<dimen name="_48sdp">172.80dp</dimen>
-	<dimen name="_49sdp">176.40dp</dimen>
-	<dimen name="_50sdp">180.00dp</dimen>
-	<dimen name="_51sdp">183.60dp</dimen>
-	<dimen name="_52sdp">187.20dp</dimen>
-	<dimen name="_53sdp">190.80dp</dimen>
-	<dimen name="_54sdp">194.40dp</dimen>
-	<dimen name="_55sdp">198.00dp</dimen>
-	<dimen name="_56sdp">201.60dp</dimen>
-	<dimen name="_57sdp">205.20dp</dimen>
-	<dimen name="_58sdp">208.80dp</dimen>
-	<dimen name="_59sdp">212.40dp</dimen>
-	<dimen name="_60sdp">216.00dp</dimen>
-	<dimen name="_61sdp">219.60dp</dimen>
-	<dimen name="_62sdp">223.20dp</dimen>
-	<dimen name="_63sdp">226.80dp</dimen>
-	<dimen name="_64sdp">230.40dp</dimen>
-	<dimen name="_65sdp">234.00dp</dimen>
-	<dimen name="_66sdp">237.60dp</dimen>
-	<dimen name="_67sdp">241.20dp</dimen>
-	<dimen name="_68sdp">244.80dp</dimen>
-	<dimen name="_69sdp">248.40dp</dimen>
-	<dimen name="_70sdp">252.00dp</dimen>
-	<dimen name="_71sdp">255.60dp</dimen>
-	<dimen name="_72sdp">259.20dp</dimen>
-	<dimen name="_73sdp">262.80dp</dimen>
-	<dimen name="_74sdp">266.40dp</dimen>
-	<dimen name="_75sdp">270.00dp</dimen>
-	<dimen name="_76sdp">273.60dp</dimen>
-	<dimen name="_77sdp">277.20dp</dimen>
-	<dimen name="_78sdp">280.80dp</dimen>
-	<dimen name="_79sdp">284.40dp</dimen>
-	<dimen name="_80sdp">288.00dp</dimen>
-	<dimen name="_81sdp">291.60dp</dimen>
-	<dimen name="_82sdp">295.20dp</dimen>
-	<dimen name="_83sdp">298.80dp</dimen>
-	<dimen name="_84sdp">302.40dp</dimen>
-	<dimen name="_85sdp">306.00dp</dimen>
-	<dimen name="_86sdp">309.60dp</dimen>
-	<dimen name="_87sdp">313.20dp</dimen>
-	<dimen name="_88sdp">316.80dp</dimen>
-	<dimen name="_89sdp">320.40dp</dimen>
-	<dimen name="_90sdp">324.00dp</dimen>
-	<dimen name="_91sdp">327.60dp</dimen>
-	<dimen name="_92sdp">331.20dp</dimen>
-	<dimen name="_93sdp">334.80dp</dimen>
-	<dimen name="_94sdp">338.40dp</dimen>
-	<dimen name="_95sdp">342.00dp</dimen>
-	<dimen name="_96sdp">345.60dp</dimen>
-	<dimen name="_97sdp">349.20dp</dimen>
-	<dimen name="_98sdp">352.80dp</dimen>
-	<dimen name="_99sdp">356.40dp</dimen>
-	<dimen name="_100sdp">360.00dp</dimen>
-	<dimen name="_101sdp">363.60dp</dimen>
-	<dimen name="_102sdp">367.20dp</dimen>
-	<dimen name="_103sdp">370.80dp</dimen>
-	<dimen name="_104sdp">374.40dp</dimen>
-	<dimen name="_105sdp">378.00dp</dimen>
-	<dimen name="_106sdp">381.60dp</dimen>
-	<dimen name="_107sdp">385.20dp</dimen>
-	<dimen name="_108sdp">388.80dp</dimen>
-	<dimen name="_109sdp">392.40dp</dimen>
-	<dimen name="_110sdp">396.00dp</dimen>
-	<dimen name="_111sdp">399.60dp</dimen>
-	<dimen name="_112sdp">403.20dp</dimen>
-	<dimen name="_113sdp">406.80dp</dimen>
-	<dimen name="_114sdp">410.40dp</dimen>
-	<dimen name="_115sdp">414.00dp</dimen>
-	<dimen name="_116sdp">417.60dp</dimen>
-	<dimen name="_117sdp">421.20dp</dimen>
-	<dimen name="_118sdp">424.80dp</dimen>
-	<dimen name="_119sdp">428.40dp</dimen>
-	<dimen name="_120sdp">432.00dp</dimen>
-	<dimen name="_121sdp">435.60dp</dimen>
-	<dimen name="_122sdp">439.20dp</dimen>
-	<dimen name="_123sdp">442.80dp</dimen>
-	<dimen name="_124sdp">446.40dp</dimen>
-	<dimen name="_125sdp">450.00dp</dimen>
-	<dimen name="_126sdp">453.60dp</dimen>
-	<dimen name="_127sdp">457.20dp</dimen>
-	<dimen name="_128sdp">460.80dp</dimen>
-	<dimen name="_129sdp">464.40dp</dimen>
-	<dimen name="_130sdp">468.00dp</dimen>
-	<dimen name="_131sdp">471.60dp</dimen>
-	<dimen name="_132sdp">475.20dp</dimen>
-	<dimen name="_133sdp">478.80dp</dimen>
-	<dimen name="_134sdp">482.40dp</dimen>
-	<dimen name="_135sdp">486.00dp</dimen>
-	<dimen name="_136sdp">489.60dp</dimen>
-	<dimen name="_137sdp">493.20dp</dimen>
-	<dimen name="_138sdp">496.80dp</dimen>
-	<dimen name="_139sdp">500.40dp</dimen>
-	<dimen name="_140sdp">504.00dp</dimen>
-	<dimen name="_141sdp">507.60dp</dimen>
-	<dimen name="_142sdp">511.20dp</dimen>
-	<dimen name="_143sdp">514.80dp</dimen>
-	<dimen name="_144sdp">518.40dp</dimen>
-	<dimen name="_145sdp">522.00dp</dimen>
-	<dimen name="_146sdp">525.60dp</dimen>
-	<dimen name="_147sdp">529.20dp</dimen>
-	<dimen name="_148sdp">532.80dp</dimen>
-	<dimen name="_149sdp">536.40dp</dimen>
-	<dimen name="_150sdp">540.00dp</dimen>
-	<dimen name="_151sdp">543.60dp</dimen>
-	<dimen name="_152sdp">547.20dp</dimen>
-	<dimen name="_153sdp">550.80dp</dimen>
-	<dimen name="_154sdp">554.40dp</dimen>
-	<dimen name="_155sdp">558.00dp</dimen>
-	<dimen name="_156sdp">561.60dp</dimen>
-	<dimen name="_157sdp">565.20dp</dimen>
-	<dimen name="_158sdp">568.80dp</dimen>
-	<dimen name="_159sdp">572.40dp</dimen>
-	<dimen name="_160sdp">576.00dp</dimen>
-	<dimen name="_161sdp">579.60dp</dimen>
-	<dimen name="_162sdp">583.20dp</dimen>
-	<dimen name="_163sdp">586.80dp</dimen>
-	<dimen name="_164sdp">590.40dp</dimen>
-	<dimen name="_165sdp">594.00dp</dimen>
-	<dimen name="_166sdp">597.60dp</dimen>
-	<dimen name="_167sdp">601.20dp</dimen>
-	<dimen name="_168sdp">604.80dp</dimen>
-	<dimen name="_169sdp">608.40dp</dimen>
-	<dimen name="_170sdp">612.00dp</dimen>
-	<dimen name="_171sdp">615.60dp</dimen>
-	<dimen name="_172sdp">619.20dp</dimen>
-	<dimen name="_173sdp">622.80dp</dimen>
-	<dimen name="_174sdp">626.40dp</dimen>
-	<dimen name="_175sdp">630.00dp</dimen>
-	<dimen name="_176sdp">633.60dp</dimen>
-	<dimen name="_177sdp">637.20dp</dimen>
-	<dimen name="_178sdp">640.80dp</dimen>
-	<dimen name="_179sdp">644.40dp</dimen>
-	<dimen name="_180sdp">648.00dp</dimen>
-	<dimen name="_181sdp">651.60dp</dimen>
-	<dimen name="_182sdp">655.20dp</dimen>
-	<dimen name="_183sdp">658.80dp</dimen>
-	<dimen name="_184sdp">662.40dp</dimen>
-	<dimen name="_185sdp">666.00dp</dimen>
-	<dimen name="_186sdp">669.60dp</dimen>
-	<dimen name="_187sdp">673.20dp</dimen>
-	<dimen name="_188sdp">676.80dp</dimen>
-	<dimen name="_189sdp">680.40dp</dimen>
-	<dimen name="_190sdp">684.00dp</dimen>
-	<dimen name="_191sdp">687.60dp</dimen>
-	<dimen name="_192sdp">691.20dp</dimen>
-	<dimen name="_193sdp">694.80dp</dimen>
-	<dimen name="_194sdp">698.40dp</dimen>
-	<dimen name="_195sdp">702.00dp</dimen>
-	<dimen name="_196sdp">705.60dp</dimen>
-	<dimen name="_197sdp">709.20dp</dimen>
-	<dimen name="_198sdp">712.80dp</dimen>
-	<dimen name="_199sdp">716.40dp</dimen>
-	<dimen name="_200sdp">720.00dp</dimen>
-	<dimen name="_201sdp">723.60dp</dimen>
-	<dimen name="_202sdp">727.20dp</dimen>
-	<dimen name="_203sdp">730.80dp</dimen>
-	<dimen name="_204sdp">734.40dp</dimen>
-	<dimen name="_205sdp">738.00dp</dimen>
-	<dimen name="_206sdp">741.60dp</dimen>
-	<dimen name="_207sdp">745.20dp</dimen>
-	<dimen name="_208sdp">748.80dp</dimen>
-	<dimen name="_209sdp">752.40dp</dimen>
-	<dimen name="_210sdp">756.00dp</dimen>
-	<dimen name="_211sdp">759.60dp</dimen>
-	<dimen name="_212sdp">763.20dp</dimen>
-	<dimen name="_213sdp">766.80dp</dimen>
-	<dimen name="_214sdp">770.40dp</dimen>
-	<dimen name="_215sdp">774.00dp</dimen>
-	<dimen name="_216sdp">777.60dp</dimen>
-	<dimen name="_217sdp">781.20dp</dimen>
-	<dimen name="_218sdp">784.80dp</dimen>
-	<dimen name="_219sdp">788.40dp</dimen>
-	<dimen name="_220sdp">792.00dp</dimen>
-	<dimen name="_221sdp">795.60dp</dimen>
-	<dimen name="_222sdp">799.20dp</dimen>
-	<dimen name="_223sdp">802.80dp</dimen>
-	<dimen name="_224sdp">806.40dp</dimen>
-	<dimen name="_225sdp">810.00dp</dimen>
-	<dimen name="_226sdp">813.60dp</dimen>
-	<dimen name="_227sdp">817.20dp</dimen>
-	<dimen name="_228sdp">820.80dp</dimen>
-	<dimen name="_229sdp">824.40dp</dimen>
-	<dimen name="_230sdp">828.00dp</dimen>
-	<dimen name="_231sdp">831.60dp</dimen>
-	<dimen name="_232sdp">835.20dp</dimen>
-	<dimen name="_233sdp">838.80dp</dimen>
-	<dimen name="_234sdp">842.40dp</dimen>
-	<dimen name="_235sdp">846.00dp</dimen>
-	<dimen name="_236sdp">849.60dp</dimen>
-	<dimen name="_237sdp">853.20dp</dimen>
-	<dimen name="_238sdp">856.80dp</dimen>
-	<dimen name="_239sdp">860.40dp</dimen>
-	<dimen name="_240sdp">864.00dp</dimen>
-	<dimen name="_241sdp">867.60dp</dimen>
-	<dimen name="_242sdp">871.20dp</dimen>
-	<dimen name="_243sdp">874.80dp</dimen>
-	<dimen name="_244sdp">878.40dp</dimen>
-	<dimen name="_245sdp">882.00dp</dimen>
-	<dimen name="_246sdp">885.60dp</dimen>
-	<dimen name="_247sdp">889.20dp</dimen>
-	<dimen name="_248sdp">892.80dp</dimen>
-	<dimen name="_249sdp">896.40dp</dimen>
-	<dimen name="_250sdp">900.00dp</dimen>
-	<dimen name="_251sdp">903.60dp</dimen>
-	<dimen name="_252sdp">907.20dp</dimen>
-	<dimen name="_253sdp">910.80dp</dimen>
-	<dimen name="_254sdp">914.40dp</dimen>
-	<dimen name="_255sdp">918.00dp</dimen>
-	<dimen name="_256sdp">921.60dp</dimen>
-	<dimen name="_257sdp">925.20dp</dimen>
-	<dimen name="_258sdp">928.80dp</dimen>
-	<dimen name="_259sdp">932.40dp</dimen>
-	<dimen name="_260sdp">936.00dp</dimen>
-	<dimen name="_261sdp">939.60dp</dimen>
-	<dimen name="_262sdp">943.20dp</dimen>
-	<dimen name="_263sdp">946.80dp</dimen>
-	<dimen name="_264sdp">950.40dp</dimen>
-	<dimen name="_265sdp">954.00dp</dimen>
-	<dimen name="_266sdp">957.60dp</dimen>
-	<dimen name="_267sdp">961.20dp</dimen>
-	<dimen name="_268sdp">964.80dp</dimen>
-	<dimen name="_269sdp">968.40dp</dimen>
-	<dimen name="_270sdp">972.00dp</dimen>
-	<dimen name="_271sdp">975.60dp</dimen>
-	<dimen name="_272sdp">979.20dp</dimen>
-	<dimen name="_273sdp">982.80dp</dimen>
-	<dimen name="_274sdp">986.40dp</dimen>
-	<dimen name="_275sdp">990.00dp</dimen>
-	<dimen name="_276sdp">993.60dp</dimen>
-	<dimen name="_277sdp">997.20dp</dimen>
-	<dimen name="_278sdp">1000.80dp</dimen>
-	<dimen name="_279sdp">1004.40dp</dimen>
-	<dimen name="_280sdp">1008.00dp</dimen>
-	<dimen name="_281sdp">1011.60dp</dimen>
-	<dimen name="_282sdp">1015.20dp</dimen>
-	<dimen name="_283sdp">1018.80dp</dimen>
-	<dimen name="_284sdp">1022.40dp</dimen>
-	<dimen name="_285sdp">1026.00dp</dimen>
-	<dimen name="_286sdp">1029.60dp</dimen>
-	<dimen name="_287sdp">1033.20dp</dimen>
-	<dimen name="_288sdp">1036.80dp</dimen>
-	<dimen name="_289sdp">1040.40dp</dimen>
-	<dimen name="_290sdp">1044.00dp</dimen>
-	<dimen name="_291sdp">1047.60dp</dimen>
-	<dimen name="_292sdp">1051.20dp</dimen>
-	<dimen name="_293sdp">1054.80dp</dimen>
-	<dimen name="_294sdp">1058.40dp</dimen>
-	<dimen name="_295sdp">1062.00dp</dimen>
-	<dimen name="_296sdp">1065.60dp</dimen>
-	<dimen name="_297sdp">1069.20dp</dimen>
-	<dimen name="_298sdp">1072.80dp</dimen>
-	<dimen name="_299sdp">1076.40dp</dimen>
-	<dimen name="_300sdp">1080.00dp</dimen>
-	<dimen name="_301sdp">1083.60dp</dimen>
-	<dimen name="_302sdp">1087.20dp</dimen>
-	<dimen name="_303sdp">1090.80dp</dimen>
-	<dimen name="_304sdp">1094.40dp</dimen>
-	<dimen name="_305sdp">1098.00dp</dimen>
-	<dimen name="_306sdp">1101.60dp</dimen>
-	<dimen name="_307sdp">1105.20dp</dimen>
-	<dimen name="_308sdp">1108.80dp</dimen>
-	<dimen name="_309sdp">1112.40dp</dimen>
-	<dimen name="_310sdp">1116.00dp</dimen>
-	<dimen name="_311sdp">1119.60dp</dimen>
-	<dimen name="_312sdp">1123.20dp</dimen>
-	<dimen name="_313sdp">1126.80dp</dimen>
-	<dimen name="_314sdp">1130.40dp</dimen>
-	<dimen name="_315sdp">1134.00dp</dimen>
-	<dimen name="_316sdp">1137.60dp</dimen>
-	<dimen name="_317sdp">1141.20dp</dimen>
-	<dimen name="_318sdp">1144.80dp</dimen>
-	<dimen name="_319sdp">1148.40dp</dimen>
-	<dimen name="_320sdp">1152.00dp</dimen>
-	<dimen name="_321sdp">1155.60dp</dimen>
-	<dimen name="_322sdp">1159.20dp</dimen>
-	<dimen name="_323sdp">1162.80dp</dimen>
-	<dimen name="_324sdp">1166.40dp</dimen>
-	<dimen name="_325sdp">1170.00dp</dimen>
-	<dimen name="_326sdp">1173.60dp</dimen>
-	<dimen name="_327sdp">1177.20dp</dimen>
-	<dimen name="_328sdp">1180.80dp</dimen>
-	<dimen name="_329sdp">1184.40dp</dimen>
-	<dimen name="_330sdp">1188.00dp</dimen>
-	<dimen name="_331sdp">1191.60dp</dimen>
-	<dimen name="_332sdp">1195.20dp</dimen>
-	<dimen name="_333sdp">1198.80dp</dimen>
-	<dimen name="_334sdp">1202.40dp</dimen>
-	<dimen name="_335sdp">1206.00dp</dimen>
-	<dimen name="_336sdp">1209.60dp</dimen>
-	<dimen name="_337sdp">1213.20dp</dimen>
-	<dimen name="_338sdp">1216.80dp</dimen>
-	<dimen name="_339sdp">1220.40dp</dimen>
-	<dimen name="_340sdp">1224.00dp</dimen>
-	<dimen name="_341sdp">1227.60dp</dimen>
-	<dimen name="_342sdp">1231.20dp</dimen>
-	<dimen name="_343sdp">1234.80dp</dimen>
-	<dimen name="_344sdp">1238.40dp</dimen>
-	<dimen name="_345sdp">1242.00dp</dimen>
-	<dimen name="_346sdp">1245.60dp</dimen>
-	<dimen name="_347sdp">1249.20dp</dimen>
-	<dimen name="_348sdp">1252.80dp</dimen>
-	<dimen name="_349sdp">1256.40dp</dimen>
-	<dimen name="_350sdp">1260.00dp</dimen>
-	<dimen name="_351sdp">1263.60dp</dimen>
-	<dimen name="_352sdp">1267.20dp</dimen>
-	<dimen name="_353sdp">1270.80dp</dimen>
-	<dimen name="_354sdp">1274.40dp</dimen>
-	<dimen name="_355sdp">1278.00dp</dimen>
-	<dimen name="_356sdp">1281.60dp</dimen>
-	<dimen name="_357sdp">1285.20dp</dimen>
-	<dimen name="_358sdp">1288.80dp</dimen>
-	<dimen name="_359sdp">1292.40dp</dimen>
-	<dimen name="_360sdp">1296.00dp</dimen>
-	<dimen name="_361sdp">1299.60dp</dimen>
-	<dimen name="_362sdp">1303.20dp</dimen>
-	<dimen name="_363sdp">1306.80dp</dimen>
-	<dimen name="_364sdp">1310.40dp</dimen>
-	<dimen name="_365sdp">1314.00dp</dimen>
-	<dimen name="_366sdp">1317.60dp</dimen>
-	<dimen name="_367sdp">1321.20dp</dimen>
-	<dimen name="_368sdp">1324.80dp</dimen>
-	<dimen name="_369sdp">1328.40dp</dimen>
-	<dimen name="_370sdp">1332.00dp</dimen>
-	<dimen name="_371sdp">1335.60dp</dimen>
-	<dimen name="_372sdp">1339.20dp</dimen>
-	<dimen name="_373sdp">1342.80dp</dimen>
-	<dimen name="_374sdp">1346.40dp</dimen>
-	<dimen name="_375sdp">1350.00dp</dimen>
-	<dimen name="_376sdp">1353.60dp</dimen>
-	<dimen name="_377sdp">1357.20dp</dimen>
-	<dimen name="_378sdp">1360.80dp</dimen>
-	<dimen name="_379sdp">1364.40dp</dimen>
-	<dimen name="_380sdp">1368.00dp</dimen>
-	<dimen name="_381sdp">1371.60dp</dimen>
-	<dimen name="_382sdp">1375.20dp</dimen>
-	<dimen name="_383sdp">1378.80dp</dimen>
-	<dimen name="_384sdp">1382.40dp</dimen>
-	<dimen name="_385sdp">1386.00dp</dimen>
-	<dimen name="_386sdp">1389.60dp</dimen>
-	<dimen name="_387sdp">1393.20dp</dimen>
-	<dimen name="_388sdp">1396.80dp</dimen>
-	<dimen name="_389sdp">1400.40dp</dimen>
-	<dimen name="_390sdp">1404.00dp</dimen>
-	<dimen name="_391sdp">1407.60dp</dimen>
-	<dimen name="_392sdp">1411.20dp</dimen>
-	<dimen name="_393sdp">1414.80dp</dimen>
-	<dimen name="_394sdp">1418.40dp</dimen>
-	<dimen name="_395sdp">1422.00dp</dimen>
-	<dimen name="_396sdp">1425.60dp</dimen>
-	<dimen name="_397sdp">1429.20dp</dimen>
-	<dimen name="_398sdp">1432.80dp</dimen>
-	<dimen name="_399sdp">1436.40dp</dimen>
-	<dimen name="_400sdp">1440.00dp</dimen>
-	<dimen name="_401sdp">1443.60dp</dimen>
-	<dimen name="_402sdp">1447.20dp</dimen>
-	<dimen name="_403sdp">1450.80dp</dimen>
-	<dimen name="_404sdp">1454.40dp</dimen>
-	<dimen name="_405sdp">1458.00dp</dimen>
-	<dimen name="_406sdp">1461.60dp</dimen>
-	<dimen name="_407sdp">1465.20dp</dimen>
-	<dimen name="_408sdp">1468.80dp</dimen>
-	<dimen name="_409sdp">1472.40dp</dimen>
-	<dimen name="_410sdp">1476.00dp</dimen>
-	<dimen name="_411sdp">1479.60dp</dimen>
-	<dimen name="_412sdp">1483.20dp</dimen>
-	<dimen name="_413sdp">1486.80dp</dimen>
-	<dimen name="_414sdp">1490.40dp</dimen>
-	<dimen name="_415sdp">1494.00dp</dimen>
-	<dimen name="_416sdp">1497.60dp</dimen>
-	<dimen name="_417sdp">1501.20dp</dimen>
-	<dimen name="_418sdp">1504.80dp</dimen>
-	<dimen name="_419sdp">1508.40dp</dimen>
-	<dimen name="_420sdp">1512.00dp</dimen>
-	<dimen name="_421sdp">1515.60dp</dimen>
-	<dimen name="_422sdp">1519.20dp</dimen>
-	<dimen name="_423sdp">1522.80dp</dimen>
-	<dimen name="_424sdp">1526.40dp</dimen>
-	<dimen name="_425sdp">1530.00dp</dimen>
-	<dimen name="_426sdp">1533.60dp</dimen>
-	<dimen name="_427sdp">1537.20dp</dimen>
-	<dimen name="_428sdp">1540.80dp</dimen>
-	<dimen name="_429sdp">1544.40dp</dimen>
-	<dimen name="_430sdp">1548.00dp</dimen>
-	<dimen name="_431sdp">1551.60dp</dimen>
-	<dimen name="_432sdp">1555.20dp</dimen>
-	<dimen name="_433sdp">1558.80dp</dimen>
-	<dimen name="_434sdp">1562.40dp</dimen>
-	<dimen name="_435sdp">1566.00dp</dimen>
-	<dimen name="_436sdp">1569.60dp</dimen>
-	<dimen name="_437sdp">1573.20dp</dimen>
-	<dimen name="_438sdp">1576.80dp</dimen>
-	<dimen name="_439sdp">1580.40dp</dimen>
-	<dimen name="_440sdp">1584.00dp</dimen>
-	<dimen name="_441sdp">1587.60dp</dimen>
-	<dimen name="_442sdp">1591.20dp</dimen>
-	<dimen name="_443sdp">1594.80dp</dimen>
-	<dimen name="_444sdp">1598.40dp</dimen>
-	<dimen name="_445sdp">1602.00dp</dimen>
-	<dimen name="_446sdp">1605.60dp</dimen>
-	<dimen name="_447sdp">1609.20dp</dimen>
-	<dimen name="_448sdp">1612.80dp</dimen>
-	<dimen name="_449sdp">1616.40dp</dimen>
-	<dimen name="_450sdp">1620.00dp</dimen>
-	<dimen name="_451sdp">1623.60dp</dimen>
-	<dimen name="_452sdp">1627.20dp</dimen>
-	<dimen name="_453sdp">1630.80dp</dimen>
-	<dimen name="_454sdp">1634.40dp</dimen>
-	<dimen name="_455sdp">1638.00dp</dimen>
-	<dimen name="_456sdp">1641.60dp</dimen>
-	<dimen name="_457sdp">1645.20dp</dimen>
-	<dimen name="_458sdp">1648.80dp</dimen>
-	<dimen name="_459sdp">1652.40dp</dimen>
-	<dimen name="_460sdp">1656.00dp</dimen>
-	<dimen name="_461sdp">1659.60dp</dimen>
-	<dimen name="_462sdp">1663.20dp</dimen>
-	<dimen name="_463sdp">1666.80dp</dimen>
-	<dimen name="_464sdp">1670.40dp</dimen>
-	<dimen name="_465sdp">1674.00dp</dimen>
-	<dimen name="_466sdp">1677.60dp</dimen>
-	<dimen name="_467sdp">1681.20dp</dimen>
-	<dimen name="_468sdp">1684.80dp</dimen>
-	<dimen name="_469sdp">1688.40dp</dimen>
-	<dimen name="_470sdp">1692.00dp</dimen>
-	<dimen name="_471sdp">1695.60dp</dimen>
-	<dimen name="_472sdp">1699.20dp</dimen>
-	<dimen name="_473sdp">1702.80dp</dimen>
-	<dimen name="_474sdp">1706.40dp</dimen>
-	<dimen name="_475sdp">1710.00dp</dimen>
-	<dimen name="_476sdp">1713.60dp</dimen>
-	<dimen name="_477sdp">1717.20dp</dimen>
-	<dimen name="_478sdp">1720.80dp</dimen>
-	<dimen name="_479sdp">1724.40dp</dimen>
-	<dimen name="_480sdp">1728.00dp</dimen>
-	<dimen name="_481sdp">1731.60dp</dimen>
-	<dimen name="_482sdp">1735.20dp</dimen>
-	<dimen name="_483sdp">1738.80dp</dimen>
-	<dimen name="_484sdp">1742.40dp</dimen>
-	<dimen name="_485sdp">1746.00dp</dimen>
-	<dimen name="_486sdp">1749.60dp</dimen>
-	<dimen name="_487sdp">1753.20dp</dimen>
-	<dimen name="_488sdp">1756.80dp</dimen>
-	<dimen name="_489sdp">1760.40dp</dimen>
-	<dimen name="_490sdp">1764.00dp</dimen>
-	<dimen name="_491sdp">1767.60dp</dimen>
-	<dimen name="_492sdp">1771.20dp</dimen>
-	<dimen name="_493sdp">1774.80dp</dimen>
-	<dimen name="_494sdp">1778.40dp</dimen>
-	<dimen name="_495sdp">1782.00dp</dimen>
-	<dimen name="_496sdp">1785.60dp</dimen>
-	<dimen name="_497sdp">1789.20dp</dimen>
-	<dimen name="_498sdp">1792.80dp</dimen>
-	<dimen name="_499sdp">1796.40dp</dimen>
-	<dimen name="_500sdp">1800.00dp</dimen>
-	<dimen name="_501sdp">1803.60dp</dimen>
-	<dimen name="_502sdp">1807.20dp</dimen>
-	<dimen name="_503sdp">1810.80dp</dimen>
-	<dimen name="_504sdp">1814.40dp</dimen>
-	<dimen name="_505sdp">1818.00dp</dimen>
-	<dimen name="_506sdp">1821.60dp</dimen>
-	<dimen name="_507sdp">1825.20dp</dimen>
-	<dimen name="_508sdp">1828.80dp</dimen>
-	<dimen name="_509sdp">1832.40dp</dimen>
-	<dimen name="_510sdp">1836.00dp</dimen>
-	<dimen name="_511sdp">1839.60dp</dimen>
-	<dimen name="_512sdp">1843.20dp</dimen>
-	<dimen name="_513sdp">1846.80dp</dimen>
-	<dimen name="_514sdp">1850.40dp</dimen>
-	<dimen name="_515sdp">1854.00dp</dimen>
-	<dimen name="_516sdp">1857.60dp</dimen>
-	<dimen name="_517sdp">1861.20dp</dimen>
-	<dimen name="_518sdp">1864.80dp</dimen>
-	<dimen name="_519sdp">1868.40dp</dimen>
-	<dimen name="_520sdp">1872.00dp</dimen>
-	<dimen name="_521sdp">1875.60dp</dimen>
-	<dimen name="_522sdp">1879.20dp</dimen>
-	<dimen name="_523sdp">1882.80dp</dimen>
-	<dimen name="_524sdp">1886.40dp</dimen>
-	<dimen name="_525sdp">1890.00dp</dimen>
-	<dimen name="_526sdp">1893.60dp</dimen>
-	<dimen name="_527sdp">1897.20dp</dimen>
-	<dimen name="_528sdp">1900.80dp</dimen>
-	<dimen name="_529sdp">1904.40dp</dimen>
-	<dimen name="_530sdp">1908.00dp</dimen>
-	<dimen name="_531sdp">1911.60dp</dimen>
-	<dimen name="_532sdp">1915.20dp</dimen>
-	<dimen name="_533sdp">1918.80dp</dimen>
-	<dimen name="_534sdp">1922.40dp</dimen>
-	<dimen name="_535sdp">1926.00dp</dimen>
-	<dimen name="_536sdp">1929.60dp</dimen>
-	<dimen name="_537sdp">1933.20dp</dimen>
-	<dimen name="_538sdp">1936.80dp</dimen>
-	<dimen name="_539sdp">1940.40dp</dimen>
-	<dimen name="_540sdp">1944.00dp</dimen>
-	<dimen name="_541sdp">1947.60dp</dimen>
-	<dimen name="_542sdp">1951.20dp</dimen>
-	<dimen name="_543sdp">1954.80dp</dimen>
-	<dimen name="_544sdp">1958.40dp</dimen>
-	<dimen name="_545sdp">1962.00dp</dimen>
-	<dimen name="_546sdp">1965.60dp</dimen>
-	<dimen name="_547sdp">1969.20dp</dimen>
-	<dimen name="_548sdp">1972.80dp</dimen>
-	<dimen name="_549sdp">1976.40dp</dimen>
-	<dimen name="_550sdp">1980.00dp</dimen>
-	<dimen name="_551sdp">1983.60dp</dimen>
-	<dimen name="_552sdp">1987.20dp</dimen>
-	<dimen name="_553sdp">1990.80dp</dimen>
-	<dimen name="_554sdp">1994.40dp</dimen>
-	<dimen name="_555sdp">1998.00dp</dimen>
-	<dimen name="_556sdp">2001.60dp</dimen>
-	<dimen name="_557sdp">2005.20dp</dimen>
-	<dimen name="_558sdp">2008.80dp</dimen>
-	<dimen name="_559sdp">2012.40dp</dimen>
-	<dimen name="_560sdp">2016.00dp</dimen>
-	<dimen name="_561sdp">2019.60dp</dimen>
-	<dimen name="_562sdp">2023.20dp</dimen>
-	<dimen name="_563sdp">2026.80dp</dimen>
-	<dimen name="_564sdp">2030.40dp</dimen>
-	<dimen name="_565sdp">2034.00dp</dimen>
-	<dimen name="_566sdp">2037.60dp</dimen>
-	<dimen name="_567sdp">2041.20dp</dimen>
-	<dimen name="_568sdp">2044.80dp</dimen>
-	<dimen name="_569sdp">2048.40dp</dimen>
-	<dimen name="_570sdp">2052.00dp</dimen>
-	<dimen name="_571sdp">2055.60dp</dimen>
-	<dimen name="_572sdp">2059.20dp</dimen>
-	<dimen name="_573sdp">2062.80dp</dimen>
-	<dimen name="_574sdp">2066.40dp</dimen>
-	<dimen name="_575sdp">2070.00dp</dimen>
-	<dimen name="_576sdp">2073.60dp</dimen>
-	<dimen name="_577sdp">2077.20dp</dimen>
-	<dimen name="_578sdp">2080.80dp</dimen>
-	<dimen name="_579sdp">2084.40dp</dimen>
-	<dimen name="_580sdp">2088.00dp</dimen>
-	<dimen name="_581sdp">2091.60dp</dimen>
-	<dimen name="_582sdp">2095.20dp</dimen>
-	<dimen name="_583sdp">2098.80dp</dimen>
-	<dimen name="_584sdp">2102.40dp</dimen>
-	<dimen name="_585sdp">2106.00dp</dimen>
-	<dimen name="_586sdp">2109.60dp</dimen>
-	<dimen name="_587sdp">2113.20dp</dimen>
-	<dimen name="_588sdp">2116.80dp</dimen>
-	<dimen name="_589sdp">2120.40dp</dimen>
-	<dimen name="_590sdp">2124.00dp</dimen>
-	<dimen name="_591sdp">2127.60dp</dimen>
-	<dimen name="_592sdp">2131.20dp</dimen>
-	<dimen name="_593sdp">2134.80dp</dimen>
-	<dimen name="_594sdp">2138.40dp</dimen>
-	<dimen name="_595sdp">2142.00dp</dimen>
-	<dimen name="_596sdp">2145.60dp</dimen>
-	<dimen name="_597sdp">2149.20dp</dimen>
-	<dimen name="_598sdp">2152.80dp</dimen>
-	<dimen name="_599sdp">2156.40dp</dimen>
-	<dimen name="_600sdp">2160.00dp</dimen>
+	<item type="fraction" name="_001sdp" format="dimension">3.60dp</item>
+	<item type="fraction" name="_002sdp" format="dimension">7.20dp</item>
+	<item type="fraction" name="_003sdp" format="dimension">10.80dp</item>
+	<item type="fraction" name="_004sdp" format="dimension">14.40dp</item>
+	<item type="fraction" name="_005sdp" format="dimension">18.00dp</item>
+	<item type="fraction" name="_006sdp" format="dimension">21.60dp</item>
+	<item type="fraction" name="_007sdp" format="dimension">25.20dp</item>
+	<item type="fraction" name="_008sdp" format="dimension">28.80dp</item>
+	<item type="fraction" name="_009sdp" format="dimension">32.40dp</item>
+	<item type="fraction" name="_010sdp" format="dimension">36.00dp</item>
+	<item type="fraction" name="_011sdp" format="dimension">39.60dp</item>
+	<item type="fraction" name="_012sdp" format="dimension">43.20dp</item>
+	<item type="fraction" name="_013sdp" format="dimension">46.80dp</item>
+	<item type="fraction" name="_014sdp" format="dimension">50.40dp</item>
+	<item type="fraction" name="_015sdp" format="dimension">54.00dp</item>
+	<item type="fraction" name="_016sdp" format="dimension">57.60dp</item>
+	<item type="fraction" name="_017sdp" format="dimension">61.20dp</item>
+	<item type="fraction" name="_018sdp" format="dimension">64.80dp</item>
+	<item type="fraction" name="_019sdp" format="dimension">68.40dp</item>
+	<item type="fraction" name="_020sdp" format="dimension">72.00dp</item>
+	<item type="fraction" name="_021sdp" format="dimension">75.60dp</item>
+	<item type="fraction" name="_022sdp" format="dimension">79.20dp</item>
+	<item type="fraction" name="_023sdp" format="dimension">82.80dp</item>
+	<item type="fraction" name="_024sdp" format="dimension">86.40dp</item>
+	<item type="fraction" name="_025sdp" format="dimension">90.00dp</item>
+	<item type="fraction" name="_026sdp" format="dimension">93.60dp</item>
+	<item type="fraction" name="_027sdp" format="dimension">97.20dp</item>
+	<item type="fraction" name="_028sdp" format="dimension">100.80dp</item>
+	<item type="fraction" name="_029sdp" format="dimension">104.40dp</item>
+	<item type="fraction" name="_030sdp" format="dimension">108.00dp</item>
+	<item type="fraction" name="_031sdp" format="dimension">111.60dp</item>
+	<item type="fraction" name="_032sdp" format="dimension">115.20dp</item>
+	<item type="fraction" name="_033sdp" format="dimension">118.80dp</item>
+	<item type="fraction" name="_034sdp" format="dimension">122.40dp</item>
+	<item type="fraction" name="_035sdp" format="dimension">126.00dp</item>
+	<item type="fraction" name="_036sdp" format="dimension">129.60dp</item>
+	<item type="fraction" name="_037sdp" format="dimension">133.20dp</item>
+	<item type="fraction" name="_038sdp" format="dimension">136.80dp</item>
+	<item type="fraction" name="_039sdp" format="dimension">140.40dp</item>
+	<item type="fraction" name="_040sdp" format="dimension">144.00dp</item>
+	<item type="fraction" name="_041sdp" format="dimension">147.60dp</item>
+	<item type="fraction" name="_042sdp" format="dimension">151.20dp</item>
+	<item type="fraction" name="_043sdp" format="dimension">154.80dp</item>
+	<item type="fraction" name="_044sdp" format="dimension">158.40dp</item>
+	<item type="fraction" name="_045sdp" format="dimension">162.00dp</item>
+	<item type="fraction" name="_046sdp" format="dimension">165.60dp</item>
+	<item type="fraction" name="_047sdp" format="dimension">169.20dp</item>
+	<item type="fraction" name="_048sdp" format="dimension">172.80dp</item>
+	<item type="fraction" name="_049sdp" format="dimension">176.40dp</item>
+	<item type="fraction" name="_050sdp" format="dimension">180.00dp</item>
+	<item type="fraction" name="_051sdp" format="dimension">183.60dp</item>
+	<item type="fraction" name="_052sdp" format="dimension">187.20dp</item>
+	<item type="fraction" name="_053sdp" format="dimension">190.80dp</item>
+	<item type="fraction" name="_054sdp" format="dimension">194.40dp</item>
+	<item type="fraction" name="_055sdp" format="dimension">198.00dp</item>
+	<item type="fraction" name="_056sdp" format="dimension">201.60dp</item>
+	<item type="fraction" name="_057sdp" format="dimension">205.20dp</item>
+	<item type="fraction" name="_058sdp" format="dimension">208.80dp</item>
+	<item type="fraction" name="_059sdp" format="dimension">212.40dp</item>
+	<item type="fraction" name="_060sdp" format="dimension">216.00dp</item>
+	<item type="fraction" name="_061sdp" format="dimension">219.60dp</item>
+	<item type="fraction" name="_062sdp" format="dimension">223.20dp</item>
+	<item type="fraction" name="_063sdp" format="dimension">226.80dp</item>
+	<item type="fraction" name="_064sdp" format="dimension">230.40dp</item>
+	<item type="fraction" name="_065sdp" format="dimension">234.00dp</item>
+	<item type="fraction" name="_066sdp" format="dimension">237.60dp</item>
+	<item type="fraction" name="_067sdp" format="dimension">241.20dp</item>
+	<item type="fraction" name="_068sdp" format="dimension">244.80dp</item>
+	<item type="fraction" name="_069sdp" format="dimension">248.40dp</item>
+	<item type="fraction" name="_070sdp" format="dimension">252.00dp</item>
+	<item type="fraction" name="_071sdp" format="dimension">255.60dp</item>
+	<item type="fraction" name="_072sdp" format="dimension">259.20dp</item>
+	<item type="fraction" name="_073sdp" format="dimension">262.80dp</item>
+	<item type="fraction" name="_074sdp" format="dimension">266.40dp</item>
+	<item type="fraction" name="_075sdp" format="dimension">270.00dp</item>
+	<item type="fraction" name="_076sdp" format="dimension">273.60dp</item>
+	<item type="fraction" name="_077sdp" format="dimension">277.20dp</item>
+	<item type="fraction" name="_078sdp" format="dimension">280.80dp</item>
+	<item type="fraction" name="_079sdp" format="dimension">284.40dp</item>
+	<item type="fraction" name="_080sdp" format="dimension">288.00dp</item>
+	<item type="fraction" name="_081sdp" format="dimension">291.60dp</item>
+	<item type="fraction" name="_082sdp" format="dimension">295.20dp</item>
+	<item type="fraction" name="_083sdp" format="dimension">298.80dp</item>
+	<item type="fraction" name="_084sdp" format="dimension">302.40dp</item>
+	<item type="fraction" name="_085sdp" format="dimension">306.00dp</item>
+	<item type="fraction" name="_086sdp" format="dimension">309.60dp</item>
+	<item type="fraction" name="_087sdp" format="dimension">313.20dp</item>
+	<item type="fraction" name="_088sdp" format="dimension">316.80dp</item>
+	<item type="fraction" name="_089sdp" format="dimension">320.40dp</item>
+	<item type="fraction" name="_090sdp" format="dimension">324.00dp</item>
+	<item type="fraction" name="_091sdp" format="dimension">327.60dp</item>
+	<item type="fraction" name="_092sdp" format="dimension">331.20dp</item>
+	<item type="fraction" name="_093sdp" format="dimension">334.80dp</item>
+	<item type="fraction" name="_094sdp" format="dimension">338.40dp</item>
+	<item type="fraction" name="_095sdp" format="dimension">342.00dp</item>
+	<item type="fraction" name="_096sdp" format="dimension">345.60dp</item>
+	<item type="fraction" name="_097sdp" format="dimension">349.20dp</item>
+	<item type="fraction" name="_098sdp" format="dimension">352.80dp</item>
+	<item type="fraction" name="_099sdp" format="dimension">356.40dp</item>
+	<item type="fraction" name="_100sdp" format="dimension">360.00dp</item>
+	<item type="fraction" name="_101sdp" format="dimension">363.60dp</item>
+	<item type="fraction" name="_102sdp" format="dimension">367.20dp</item>
+	<item type="fraction" name="_103sdp" format="dimension">370.80dp</item>
+	<item type="fraction" name="_104sdp" format="dimension">374.40dp</item>
+	<item type="fraction" name="_105sdp" format="dimension">378.00dp</item>
+	<item type="fraction" name="_106sdp" format="dimension">381.60dp</item>
+	<item type="fraction" name="_107sdp" format="dimension">385.20dp</item>
+	<item type="fraction" name="_108sdp" format="dimension">388.80dp</item>
+	<item type="fraction" name="_109sdp" format="dimension">392.40dp</item>
+	<item type="fraction" name="_110sdp" format="dimension">396.00dp</item>
+	<item type="fraction" name="_111sdp" format="dimension">399.60dp</item>
+	<item type="fraction" name="_112sdp" format="dimension">403.20dp</item>
+	<item type="fraction" name="_113sdp" format="dimension">406.80dp</item>
+	<item type="fraction" name="_114sdp" format="dimension">410.40dp</item>
+	<item type="fraction" name="_115sdp" format="dimension">414.00dp</item>
+	<item type="fraction" name="_116sdp" format="dimension">417.60dp</item>
+	<item type="fraction" name="_117sdp" format="dimension">421.20dp</item>
+	<item type="fraction" name="_118sdp" format="dimension">424.80dp</item>
+	<item type="fraction" name="_119sdp" format="dimension">428.40dp</item>
+	<item type="fraction" name="_120sdp" format="dimension">432.00dp</item>
+	<item type="fraction" name="_121sdp" format="dimension">435.60dp</item>
+	<item type="fraction" name="_122sdp" format="dimension">439.20dp</item>
+	<item type="fraction" name="_123sdp" format="dimension">442.80dp</item>
+	<item type="fraction" name="_124sdp" format="dimension">446.40dp</item>
+	<item type="fraction" name="_125sdp" format="dimension">450.00dp</item>
+	<item type="fraction" name="_126sdp" format="dimension">453.60dp</item>
+	<item type="fraction" name="_127sdp" format="dimension">457.20dp</item>
+	<item type="fraction" name="_128sdp" format="dimension">460.80dp</item>
+	<item type="fraction" name="_129sdp" format="dimension">464.40dp</item>
+	<item type="fraction" name="_130sdp" format="dimension">468.00dp</item>
+	<item type="fraction" name="_131sdp" format="dimension">471.60dp</item>
+	<item type="fraction" name="_132sdp" format="dimension">475.20dp</item>
+	<item type="fraction" name="_133sdp" format="dimension">478.80dp</item>
+	<item type="fraction" name="_134sdp" format="dimension">482.40dp</item>
+	<item type="fraction" name="_135sdp" format="dimension">486.00dp</item>
+	<item type="fraction" name="_136sdp" format="dimension">489.60dp</item>
+	<item type="fraction" name="_137sdp" format="dimension">493.20dp</item>
+	<item type="fraction" name="_138sdp" format="dimension">496.80dp</item>
+	<item type="fraction" name="_139sdp" format="dimension">500.40dp</item>
+	<item type="fraction" name="_140sdp" format="dimension">504.00dp</item>
+	<item type="fraction" name="_141sdp" format="dimension">507.60dp</item>
+	<item type="fraction" name="_142sdp" format="dimension">511.20dp</item>
+	<item type="fraction" name="_143sdp" format="dimension">514.80dp</item>
+	<item type="fraction" name="_144sdp" format="dimension">518.40dp</item>
+	<item type="fraction" name="_145sdp" format="dimension">522.00dp</item>
+	<item type="fraction" name="_146sdp" format="dimension">525.60dp</item>
+	<item type="fraction" name="_147sdp" format="dimension">529.20dp</item>
+	<item type="fraction" name="_148sdp" format="dimension">532.80dp</item>
+	<item type="fraction" name="_149sdp" format="dimension">536.40dp</item>
+	<item type="fraction" name="_150sdp" format="dimension">540.00dp</item>
+	<item type="fraction" name="_151sdp" format="dimension">543.60dp</item>
+	<item type="fraction" name="_152sdp" format="dimension">547.20dp</item>
+	<item type="fraction" name="_153sdp" format="dimension">550.80dp</item>
+	<item type="fraction" name="_154sdp" format="dimension">554.40dp</item>
+	<item type="fraction" name="_155sdp" format="dimension">558.00dp</item>
+	<item type="fraction" name="_156sdp" format="dimension">561.60dp</item>
+	<item type="fraction" name="_157sdp" format="dimension">565.20dp</item>
+	<item type="fraction" name="_158sdp" format="dimension">568.80dp</item>
+	<item type="fraction" name="_159sdp" format="dimension">572.40dp</item>
+	<item type="fraction" name="_160sdp" format="dimension">576.00dp</item>
+	<item type="fraction" name="_161sdp" format="dimension">579.60dp</item>
+	<item type="fraction" name="_162sdp" format="dimension">583.20dp</item>
+	<item type="fraction" name="_163sdp" format="dimension">586.80dp</item>
+	<item type="fraction" name="_164sdp" format="dimension">590.40dp</item>
+	<item type="fraction" name="_165sdp" format="dimension">594.00dp</item>
+	<item type="fraction" name="_166sdp" format="dimension">597.60dp</item>
+	<item type="fraction" name="_167sdp" format="dimension">601.20dp</item>
+	<item type="fraction" name="_168sdp" format="dimension">604.80dp</item>
+	<item type="fraction" name="_169sdp" format="dimension">608.40dp</item>
+	<item type="fraction" name="_170sdp" format="dimension">612.00dp</item>
+	<item type="fraction" name="_171sdp" format="dimension">615.60dp</item>
+	<item type="fraction" name="_172sdp" format="dimension">619.20dp</item>
+	<item type="fraction" name="_173sdp" format="dimension">622.80dp</item>
+	<item type="fraction" name="_174sdp" format="dimension">626.40dp</item>
+	<item type="fraction" name="_175sdp" format="dimension">630.00dp</item>
+	<item type="fraction" name="_176sdp" format="dimension">633.60dp</item>
+	<item type="fraction" name="_177sdp" format="dimension">637.20dp</item>
+	<item type="fraction" name="_178sdp" format="dimension">640.80dp</item>
+	<item type="fraction" name="_179sdp" format="dimension">644.40dp</item>
+	<item type="fraction" name="_180sdp" format="dimension">648.00dp</item>
+	<item type="fraction" name="_181sdp" format="dimension">651.60dp</item>
+	<item type="fraction" name="_182sdp" format="dimension">655.20dp</item>
+	<item type="fraction" name="_183sdp" format="dimension">658.80dp</item>
+	<item type="fraction" name="_184sdp" format="dimension">662.40dp</item>
+	<item type="fraction" name="_185sdp" format="dimension">666.00dp</item>
+	<item type="fraction" name="_186sdp" format="dimension">669.60dp</item>
+	<item type="fraction" name="_187sdp" format="dimension">673.20dp</item>
+	<item type="fraction" name="_188sdp" format="dimension">676.80dp</item>
+	<item type="fraction" name="_189sdp" format="dimension">680.40dp</item>
+	<item type="fraction" name="_190sdp" format="dimension">684.00dp</item>
+	<item type="fraction" name="_191sdp" format="dimension">687.60dp</item>
+	<item type="fraction" name="_192sdp" format="dimension">691.20dp</item>
+	<item type="fraction" name="_193sdp" format="dimension">694.80dp</item>
+	<item type="fraction" name="_194sdp" format="dimension">698.40dp</item>
+	<item type="fraction" name="_195sdp" format="dimension">702.00dp</item>
+	<item type="fraction" name="_196sdp" format="dimension">705.60dp</item>
+	<item type="fraction" name="_197sdp" format="dimension">709.20dp</item>
+	<item type="fraction" name="_198sdp" format="dimension">712.80dp</item>
+	<item type="fraction" name="_199sdp" format="dimension">716.40dp</item>
+	<item type="fraction" name="_200sdp" format="dimension">720.00dp</item>
+	<item type="fraction" name="_201sdp" format="dimension">723.60dp</item>
+	<item type="fraction" name="_202sdp" format="dimension">727.20dp</item>
+	<item type="fraction" name="_203sdp" format="dimension">730.80dp</item>
+	<item type="fraction" name="_204sdp" format="dimension">734.40dp</item>
+	<item type="fraction" name="_205sdp" format="dimension">738.00dp</item>
+	<item type="fraction" name="_206sdp" format="dimension">741.60dp</item>
+	<item type="fraction" name="_207sdp" format="dimension">745.20dp</item>
+	<item type="fraction" name="_208sdp" format="dimension">748.80dp</item>
+	<item type="fraction" name="_209sdp" format="dimension">752.40dp</item>
+	<item type="fraction" name="_210sdp" format="dimension">756.00dp</item>
+	<item type="fraction" name="_211sdp" format="dimension">759.60dp</item>
+	<item type="fraction" name="_212sdp" format="dimension">763.20dp</item>
+	<item type="fraction" name="_213sdp" format="dimension">766.80dp</item>
+	<item type="fraction" name="_214sdp" format="dimension">770.40dp</item>
+	<item type="fraction" name="_215sdp" format="dimension">774.00dp</item>
+	<item type="fraction" name="_216sdp" format="dimension">777.60dp</item>
+	<item type="fraction" name="_217sdp" format="dimension">781.20dp</item>
+	<item type="fraction" name="_218sdp" format="dimension">784.80dp</item>
+	<item type="fraction" name="_219sdp" format="dimension">788.40dp</item>
+	<item type="fraction" name="_220sdp" format="dimension">792.00dp</item>
+	<item type="fraction" name="_221sdp" format="dimension">795.60dp</item>
+	<item type="fraction" name="_222sdp" format="dimension">799.20dp</item>
+	<item type="fraction" name="_223sdp" format="dimension">802.80dp</item>
+	<item type="fraction" name="_224sdp" format="dimension">806.40dp</item>
+	<item type="fraction" name="_225sdp" format="dimension">810.00dp</item>
+	<item type="fraction" name="_226sdp" format="dimension">813.60dp</item>
+	<item type="fraction" name="_227sdp" format="dimension">817.20dp</item>
+	<item type="fraction" name="_228sdp" format="dimension">820.80dp</item>
+	<item type="fraction" name="_229sdp" format="dimension">824.40dp</item>
+	<item type="fraction" name="_230sdp" format="dimension">828.00dp</item>
+	<item type="fraction" name="_231sdp" format="dimension">831.60dp</item>
+	<item type="fraction" name="_232sdp" format="dimension">835.20dp</item>
+	<item type="fraction" name="_233sdp" format="dimension">838.80dp</item>
+	<item type="fraction" name="_234sdp" format="dimension">842.40dp</item>
+	<item type="fraction" name="_235sdp" format="dimension">846.00dp</item>
+	<item type="fraction" name="_236sdp" format="dimension">849.60dp</item>
+	<item type="fraction" name="_237sdp" format="dimension">853.20dp</item>
+	<item type="fraction" name="_238sdp" format="dimension">856.80dp</item>
+	<item type="fraction" name="_239sdp" format="dimension">860.40dp</item>
+	<item type="fraction" name="_240sdp" format="dimension">864.00dp</item>
+	<item type="fraction" name="_241sdp" format="dimension">867.60dp</item>
+	<item type="fraction" name="_242sdp" format="dimension">871.20dp</item>
+	<item type="fraction" name="_243sdp" format="dimension">874.80dp</item>
+	<item type="fraction" name="_244sdp" format="dimension">878.40dp</item>
+	<item type="fraction" name="_245sdp" format="dimension">882.00dp</item>
+	<item type="fraction" name="_246sdp" format="dimension">885.60dp</item>
+	<item type="fraction" name="_247sdp" format="dimension">889.20dp</item>
+	<item type="fraction" name="_248sdp" format="dimension">892.80dp</item>
+	<item type="fraction" name="_249sdp" format="dimension">896.40dp</item>
+	<item type="fraction" name="_250sdp" format="dimension">900.00dp</item>
+	<item type="fraction" name="_251sdp" format="dimension">903.60dp</item>
+	<item type="fraction" name="_252sdp" format="dimension">907.20dp</item>
+	<item type="fraction" name="_253sdp" format="dimension">910.80dp</item>
+	<item type="fraction" name="_254sdp" format="dimension">914.40dp</item>
+	<item type="fraction" name="_255sdp" format="dimension">918.00dp</item>
+	<item type="fraction" name="_256sdp" format="dimension">921.60dp</item>
+	<item type="fraction" name="_257sdp" format="dimension">925.20dp</item>
+	<item type="fraction" name="_258sdp" format="dimension">928.80dp</item>
+	<item type="fraction" name="_259sdp" format="dimension">932.40dp</item>
+	<item type="fraction" name="_260sdp" format="dimension">936.00dp</item>
+	<item type="fraction" name="_261sdp" format="dimension">939.60dp</item>
+	<item type="fraction" name="_262sdp" format="dimension">943.20dp</item>
+	<item type="fraction" name="_263sdp" format="dimension">946.80dp</item>
+	<item type="fraction" name="_264sdp" format="dimension">950.40dp</item>
+	<item type="fraction" name="_265sdp" format="dimension">954.00dp</item>
+	<item type="fraction" name="_266sdp" format="dimension">957.60dp</item>
+	<item type="fraction" name="_267sdp" format="dimension">961.20dp</item>
+	<item type="fraction" name="_268sdp" format="dimension">964.80dp</item>
+	<item type="fraction" name="_269sdp" format="dimension">968.40dp</item>
+	<item type="fraction" name="_270sdp" format="dimension">972.00dp</item>
+	<item type="fraction" name="_271sdp" format="dimension">975.60dp</item>
+	<item type="fraction" name="_272sdp" format="dimension">979.20dp</item>
+	<item type="fraction" name="_273sdp" format="dimension">982.80dp</item>
+	<item type="fraction" name="_274sdp" format="dimension">986.40dp</item>
+	<item type="fraction" name="_275sdp" format="dimension">990.00dp</item>
+	<item type="fraction" name="_276sdp" format="dimension">993.60dp</item>
+	<item type="fraction" name="_277sdp" format="dimension">997.20dp</item>
+	<item type="fraction" name="_278sdp" format="dimension">1000.80dp</item>
+	<item type="fraction" name="_279sdp" format="dimension">1004.40dp</item>
+	<item type="fraction" name="_280sdp" format="dimension">1008.00dp</item>
+	<item type="fraction" name="_281sdp" format="dimension">1011.60dp</item>
+	<item type="fraction" name="_282sdp" format="dimension">1015.20dp</item>
+	<item type="fraction" name="_283sdp" format="dimension">1018.80dp</item>
+	<item type="fraction" name="_284sdp" format="dimension">1022.40dp</item>
+	<item type="fraction" name="_285sdp" format="dimension">1026.00dp</item>
+	<item type="fraction" name="_286sdp" format="dimension">1029.60dp</item>
+	<item type="fraction" name="_287sdp" format="dimension">1033.20dp</item>
+	<item type="fraction" name="_288sdp" format="dimension">1036.80dp</item>
+	<item type="fraction" name="_289sdp" format="dimension">1040.40dp</item>
+	<item type="fraction" name="_290sdp" format="dimension">1044.00dp</item>
+	<item type="fraction" name="_291sdp" format="dimension">1047.60dp</item>
+	<item type="fraction" name="_292sdp" format="dimension">1051.20dp</item>
+	<item type="fraction" name="_293sdp" format="dimension">1054.80dp</item>
+	<item type="fraction" name="_294sdp" format="dimension">1058.40dp</item>
+	<item type="fraction" name="_295sdp" format="dimension">1062.00dp</item>
+	<item type="fraction" name="_296sdp" format="dimension">1065.60dp</item>
+	<item type="fraction" name="_297sdp" format="dimension">1069.20dp</item>
+	<item type="fraction" name="_298sdp" format="dimension">1072.80dp</item>
+	<item type="fraction" name="_299sdp" format="dimension">1076.40dp</item>
+	<item type="fraction" name="_300sdp" format="dimension">1080.00dp</item>
+	<item type="fraction" name="_301sdp" format="dimension">1083.60dp</item>
+	<item type="fraction" name="_302sdp" format="dimension">1087.20dp</item>
+	<item type="fraction" name="_303sdp" format="dimension">1090.80dp</item>
+	<item type="fraction" name="_304sdp" format="dimension">1094.40dp</item>
+	<item type="fraction" name="_305sdp" format="dimension">1098.00dp</item>
+	<item type="fraction" name="_306sdp" format="dimension">1101.60dp</item>
+	<item type="fraction" name="_307sdp" format="dimension">1105.20dp</item>
+	<item type="fraction" name="_308sdp" format="dimension">1108.80dp</item>
+	<item type="fraction" name="_309sdp" format="dimension">1112.40dp</item>
+	<item type="fraction" name="_310sdp" format="dimension">1116.00dp</item>
+	<item type="fraction" name="_311sdp" format="dimension">1119.60dp</item>
+	<item type="fraction" name="_312sdp" format="dimension">1123.20dp</item>
+	<item type="fraction" name="_313sdp" format="dimension">1126.80dp</item>
+	<item type="fraction" name="_314sdp" format="dimension">1130.40dp</item>
+	<item type="fraction" name="_315sdp" format="dimension">1134.00dp</item>
+	<item type="fraction" name="_316sdp" format="dimension">1137.60dp</item>
+	<item type="fraction" name="_317sdp" format="dimension">1141.20dp</item>
+	<item type="fraction" name="_318sdp" format="dimension">1144.80dp</item>
+	<item type="fraction" name="_319sdp" format="dimension">1148.40dp</item>
+	<item type="fraction" name="_320sdp" format="dimension">1152.00dp</item>
+	<item type="fraction" name="_321sdp" format="dimension">1155.60dp</item>
+	<item type="fraction" name="_322sdp" format="dimension">1159.20dp</item>
+	<item type="fraction" name="_323sdp" format="dimension">1162.80dp</item>
+	<item type="fraction" name="_324sdp" format="dimension">1166.40dp</item>
+	<item type="fraction" name="_325sdp" format="dimension">1170.00dp</item>
+	<item type="fraction" name="_326sdp" format="dimension">1173.60dp</item>
+	<item type="fraction" name="_327sdp" format="dimension">1177.20dp</item>
+	<item type="fraction" name="_328sdp" format="dimension">1180.80dp</item>
+	<item type="fraction" name="_329sdp" format="dimension">1184.40dp</item>
+	<item type="fraction" name="_330sdp" format="dimension">1188.00dp</item>
+	<item type="fraction" name="_331sdp" format="dimension">1191.60dp</item>
+	<item type="fraction" name="_332sdp" format="dimension">1195.20dp</item>
+	<item type="fraction" name="_333sdp" format="dimension">1198.80dp</item>
+	<item type="fraction" name="_334sdp" format="dimension">1202.40dp</item>
+	<item type="fraction" name="_335sdp" format="dimension">1206.00dp</item>
+	<item type="fraction" name="_336sdp" format="dimension">1209.60dp</item>
+	<item type="fraction" name="_337sdp" format="dimension">1213.20dp</item>
+	<item type="fraction" name="_338sdp" format="dimension">1216.80dp</item>
+	<item type="fraction" name="_339sdp" format="dimension">1220.40dp</item>
+	<item type="fraction" name="_340sdp" format="dimension">1224.00dp</item>
+	<item type="fraction" name="_341sdp" format="dimension">1227.60dp</item>
+	<item type="fraction" name="_342sdp" format="dimension">1231.20dp</item>
+	<item type="fraction" name="_343sdp" format="dimension">1234.80dp</item>
+	<item type="fraction" name="_344sdp" format="dimension">1238.40dp</item>
+	<item type="fraction" name="_345sdp" format="dimension">1242.00dp</item>
+	<item type="fraction" name="_346sdp" format="dimension">1245.60dp</item>
+	<item type="fraction" name="_347sdp" format="dimension">1249.20dp</item>
+	<item type="fraction" name="_348sdp" format="dimension">1252.80dp</item>
+	<item type="fraction" name="_349sdp" format="dimension">1256.40dp</item>
+	<item type="fraction" name="_350sdp" format="dimension">1260.00dp</item>
+	<item type="fraction" name="_351sdp" format="dimension">1263.60dp</item>
+	<item type="fraction" name="_352sdp" format="dimension">1267.20dp</item>
+	<item type="fraction" name="_353sdp" format="dimension">1270.80dp</item>
+	<item type="fraction" name="_354sdp" format="dimension">1274.40dp</item>
+	<item type="fraction" name="_355sdp" format="dimension">1278.00dp</item>
+	<item type="fraction" name="_356sdp" format="dimension">1281.60dp</item>
+	<item type="fraction" name="_357sdp" format="dimension">1285.20dp</item>
+	<item type="fraction" name="_358sdp" format="dimension">1288.80dp</item>
+	<item type="fraction" name="_359sdp" format="dimension">1292.40dp</item>
+	<item type="fraction" name="_360sdp" format="dimension">1296.00dp</item>
+	<item type="fraction" name="_361sdp" format="dimension">1299.60dp</item>
+	<item type="fraction" name="_362sdp" format="dimension">1303.20dp</item>
+	<item type="fraction" name="_363sdp" format="dimension">1306.80dp</item>
+	<item type="fraction" name="_364sdp" format="dimension">1310.40dp</item>
+	<item type="fraction" name="_365sdp" format="dimension">1314.00dp</item>
+	<item type="fraction" name="_366sdp" format="dimension">1317.60dp</item>
+	<item type="fraction" name="_367sdp" format="dimension">1321.20dp</item>
+	<item type="fraction" name="_368sdp" format="dimension">1324.80dp</item>
+	<item type="fraction" name="_369sdp" format="dimension">1328.40dp</item>
+	<item type="fraction" name="_370sdp" format="dimension">1332.00dp</item>
+	<item type="fraction" name="_371sdp" format="dimension">1335.60dp</item>
+	<item type="fraction" name="_372sdp" format="dimension">1339.20dp</item>
+	<item type="fraction" name="_373sdp" format="dimension">1342.80dp</item>
+	<item type="fraction" name="_374sdp" format="dimension">1346.40dp</item>
+	<item type="fraction" name="_375sdp" format="dimension">1350.00dp</item>
+	<item type="fraction" name="_376sdp" format="dimension">1353.60dp</item>
+	<item type="fraction" name="_377sdp" format="dimension">1357.20dp</item>
+	<item type="fraction" name="_378sdp" format="dimension">1360.80dp</item>
+	<item type="fraction" name="_379sdp" format="dimension">1364.40dp</item>
+	<item type="fraction" name="_380sdp" format="dimension">1368.00dp</item>
+	<item type="fraction" name="_381sdp" format="dimension">1371.60dp</item>
+	<item type="fraction" name="_382sdp" format="dimension">1375.20dp</item>
+	<item type="fraction" name="_383sdp" format="dimension">1378.80dp</item>
+	<item type="fraction" name="_384sdp" format="dimension">1382.40dp</item>
+	<item type="fraction" name="_385sdp" format="dimension">1386.00dp</item>
+	<item type="fraction" name="_386sdp" format="dimension">1389.60dp</item>
+	<item type="fraction" name="_387sdp" format="dimension">1393.20dp</item>
+	<item type="fraction" name="_388sdp" format="dimension">1396.80dp</item>
+	<item type="fraction" name="_389sdp" format="dimension">1400.40dp</item>
+	<item type="fraction" name="_390sdp" format="dimension">1404.00dp</item>
+	<item type="fraction" name="_391sdp" format="dimension">1407.60dp</item>
+	<item type="fraction" name="_392sdp" format="dimension">1411.20dp</item>
+	<item type="fraction" name="_393sdp" format="dimension">1414.80dp</item>
+	<item type="fraction" name="_394sdp" format="dimension">1418.40dp</item>
+	<item type="fraction" name="_395sdp" format="dimension">1422.00dp</item>
+	<item type="fraction" name="_396sdp" format="dimension">1425.60dp</item>
+	<item type="fraction" name="_397sdp" format="dimension">1429.20dp</item>
+	<item type="fraction" name="_398sdp" format="dimension">1432.80dp</item>
+	<item type="fraction" name="_399sdp" format="dimension">1436.40dp</item>
+	<item type="fraction" name="_400sdp" format="dimension">1440.00dp</item>
+	<item type="fraction" name="_401sdp" format="dimension">1443.60dp</item>
+	<item type="fraction" name="_402sdp" format="dimension">1447.20dp</item>
+	<item type="fraction" name="_403sdp" format="dimension">1450.80dp</item>
+	<item type="fraction" name="_404sdp" format="dimension">1454.40dp</item>
+	<item type="fraction" name="_405sdp" format="dimension">1458.00dp</item>
+	<item type="fraction" name="_406sdp" format="dimension">1461.60dp</item>
+	<item type="fraction" name="_407sdp" format="dimension">1465.20dp</item>
+	<item type="fraction" name="_408sdp" format="dimension">1468.80dp</item>
+	<item type="fraction" name="_409sdp" format="dimension">1472.40dp</item>
+	<item type="fraction" name="_410sdp" format="dimension">1476.00dp</item>
+	<item type="fraction" name="_411sdp" format="dimension">1479.60dp</item>
+	<item type="fraction" name="_412sdp" format="dimension">1483.20dp</item>
+	<item type="fraction" name="_413sdp" format="dimension">1486.80dp</item>
+	<item type="fraction" name="_414sdp" format="dimension">1490.40dp</item>
+	<item type="fraction" name="_415sdp" format="dimension">1494.00dp</item>
+	<item type="fraction" name="_416sdp" format="dimension">1497.60dp</item>
+	<item type="fraction" name="_417sdp" format="dimension">1501.20dp</item>
+	<item type="fraction" name="_418sdp" format="dimension">1504.80dp</item>
+	<item type="fraction" name="_419sdp" format="dimension">1508.40dp</item>
+	<item type="fraction" name="_420sdp" format="dimension">1512.00dp</item>
+	<item type="fraction" name="_421sdp" format="dimension">1515.60dp</item>
+	<item type="fraction" name="_422sdp" format="dimension">1519.20dp</item>
+	<item type="fraction" name="_423sdp" format="dimension">1522.80dp</item>
+	<item type="fraction" name="_424sdp" format="dimension">1526.40dp</item>
+	<item type="fraction" name="_425sdp" format="dimension">1530.00dp</item>
+	<item type="fraction" name="_426sdp" format="dimension">1533.60dp</item>
+	<item type="fraction" name="_427sdp" format="dimension">1537.20dp</item>
+	<item type="fraction" name="_428sdp" format="dimension">1540.80dp</item>
+	<item type="fraction" name="_429sdp" format="dimension">1544.40dp</item>
+	<item type="fraction" name="_430sdp" format="dimension">1548.00dp</item>
+	<item type="fraction" name="_431sdp" format="dimension">1551.60dp</item>
+	<item type="fraction" name="_432sdp" format="dimension">1555.20dp</item>
+	<item type="fraction" name="_433sdp" format="dimension">1558.80dp</item>
+	<item type="fraction" name="_434sdp" format="dimension">1562.40dp</item>
+	<item type="fraction" name="_435sdp" format="dimension">1566.00dp</item>
+	<item type="fraction" name="_436sdp" format="dimension">1569.60dp</item>
+	<item type="fraction" name="_437sdp" format="dimension">1573.20dp</item>
+	<item type="fraction" name="_438sdp" format="dimension">1576.80dp</item>
+	<item type="fraction" name="_439sdp" format="dimension">1580.40dp</item>
+	<item type="fraction" name="_440sdp" format="dimension">1584.00dp</item>
+	<item type="fraction" name="_441sdp" format="dimension">1587.60dp</item>
+	<item type="fraction" name="_442sdp" format="dimension">1591.20dp</item>
+	<item type="fraction" name="_443sdp" format="dimension">1594.80dp</item>
+	<item type="fraction" name="_444sdp" format="dimension">1598.40dp</item>
+	<item type="fraction" name="_445sdp" format="dimension">1602.00dp</item>
+	<item type="fraction" name="_446sdp" format="dimension">1605.60dp</item>
+	<item type="fraction" name="_447sdp" format="dimension">1609.20dp</item>
+	<item type="fraction" name="_448sdp" format="dimension">1612.80dp</item>
+	<item type="fraction" name="_449sdp" format="dimension">1616.40dp</item>
+	<item type="fraction" name="_450sdp" format="dimension">1620.00dp</item>
+	<item type="fraction" name="_451sdp" format="dimension">1623.60dp</item>
+	<item type="fraction" name="_452sdp" format="dimension">1627.20dp</item>
+	<item type="fraction" name="_453sdp" format="dimension">1630.80dp</item>
+	<item type="fraction" name="_454sdp" format="dimension">1634.40dp</item>
+	<item type="fraction" name="_455sdp" format="dimension">1638.00dp</item>
+	<item type="fraction" name="_456sdp" format="dimension">1641.60dp</item>
+	<item type="fraction" name="_457sdp" format="dimension">1645.20dp</item>
+	<item type="fraction" name="_458sdp" format="dimension">1648.80dp</item>
+	<item type="fraction" name="_459sdp" format="dimension">1652.40dp</item>
+	<item type="fraction" name="_460sdp" format="dimension">1656.00dp</item>
+	<item type="fraction" name="_461sdp" format="dimension">1659.60dp</item>
+	<item type="fraction" name="_462sdp" format="dimension">1663.20dp</item>
+	<item type="fraction" name="_463sdp" format="dimension">1666.80dp</item>
+	<item type="fraction" name="_464sdp" format="dimension">1670.40dp</item>
+	<item type="fraction" name="_465sdp" format="dimension">1674.00dp</item>
+	<item type="fraction" name="_466sdp" format="dimension">1677.60dp</item>
+	<item type="fraction" name="_467sdp" format="dimension">1681.20dp</item>
+	<item type="fraction" name="_468sdp" format="dimension">1684.80dp</item>
+	<item type="fraction" name="_469sdp" format="dimension">1688.40dp</item>
+	<item type="fraction" name="_470sdp" format="dimension">1692.00dp</item>
+	<item type="fraction" name="_471sdp" format="dimension">1695.60dp</item>
+	<item type="fraction" name="_472sdp" format="dimension">1699.20dp</item>
+	<item type="fraction" name="_473sdp" format="dimension">1702.80dp</item>
+	<item type="fraction" name="_474sdp" format="dimension">1706.40dp</item>
+	<item type="fraction" name="_475sdp" format="dimension">1710.00dp</item>
+	<item type="fraction" name="_476sdp" format="dimension">1713.60dp</item>
+	<item type="fraction" name="_477sdp" format="dimension">1717.20dp</item>
+	<item type="fraction" name="_478sdp" format="dimension">1720.80dp</item>
+	<item type="fraction" name="_479sdp" format="dimension">1724.40dp</item>
+	<item type="fraction" name="_480sdp" format="dimension">1728.00dp</item>
+	<item type="fraction" name="_481sdp" format="dimension">1731.60dp</item>
+	<item type="fraction" name="_482sdp" format="dimension">1735.20dp</item>
+	<item type="fraction" name="_483sdp" format="dimension">1738.80dp</item>
+	<item type="fraction" name="_484sdp" format="dimension">1742.40dp</item>
+	<item type="fraction" name="_485sdp" format="dimension">1746.00dp</item>
+	<item type="fraction" name="_486sdp" format="dimension">1749.60dp</item>
+	<item type="fraction" name="_487sdp" format="dimension">1753.20dp</item>
+	<item type="fraction" name="_488sdp" format="dimension">1756.80dp</item>
+	<item type="fraction" name="_489sdp" format="dimension">1760.40dp</item>
+	<item type="fraction" name="_490sdp" format="dimension">1764.00dp</item>
+	<item type="fraction" name="_491sdp" format="dimension">1767.60dp</item>
+	<item type="fraction" name="_492sdp" format="dimension">1771.20dp</item>
+	<item type="fraction" name="_493sdp" format="dimension">1774.80dp</item>
+	<item type="fraction" name="_494sdp" format="dimension">1778.40dp</item>
+	<item type="fraction" name="_495sdp" format="dimension">1782.00dp</item>
+	<item type="fraction" name="_496sdp" format="dimension">1785.60dp</item>
+	<item type="fraction" name="_497sdp" format="dimension">1789.20dp</item>
+	<item type="fraction" name="_498sdp" format="dimension">1792.80dp</item>
+	<item type="fraction" name="_499sdp" format="dimension">1796.40dp</item>
+	<item type="fraction" name="_500sdp" format="dimension">1800.00dp</item>
+	<item type="fraction" name="_501sdp" format="dimension">1803.60dp</item>
+	<item type="fraction" name="_502sdp" format="dimension">1807.20dp</item>
+	<item type="fraction" name="_503sdp" format="dimension">1810.80dp</item>
+	<item type="fraction" name="_504sdp" format="dimension">1814.40dp</item>
+	<item type="fraction" name="_505sdp" format="dimension">1818.00dp</item>
+	<item type="fraction" name="_506sdp" format="dimension">1821.60dp</item>
+	<item type="fraction" name="_507sdp" format="dimension">1825.20dp</item>
+	<item type="fraction" name="_508sdp" format="dimension">1828.80dp</item>
+	<item type="fraction" name="_509sdp" format="dimension">1832.40dp</item>
+	<item type="fraction" name="_510sdp" format="dimension">1836.00dp</item>
+	<item type="fraction" name="_511sdp" format="dimension">1839.60dp</item>
+	<item type="fraction" name="_512sdp" format="dimension">1843.20dp</item>
+	<item type="fraction" name="_513sdp" format="dimension">1846.80dp</item>
+	<item type="fraction" name="_514sdp" format="dimension">1850.40dp</item>
+	<item type="fraction" name="_515sdp" format="dimension">1854.00dp</item>
+	<item type="fraction" name="_516sdp" format="dimension">1857.60dp</item>
+	<item type="fraction" name="_517sdp" format="dimension">1861.20dp</item>
+	<item type="fraction" name="_518sdp" format="dimension">1864.80dp</item>
+	<item type="fraction" name="_519sdp" format="dimension">1868.40dp</item>
+	<item type="fraction" name="_520sdp" format="dimension">1872.00dp</item>
+	<item type="fraction" name="_521sdp" format="dimension">1875.60dp</item>
+	<item type="fraction" name="_522sdp" format="dimension">1879.20dp</item>
+	<item type="fraction" name="_523sdp" format="dimension">1882.80dp</item>
+	<item type="fraction" name="_524sdp" format="dimension">1886.40dp</item>
+	<item type="fraction" name="_525sdp" format="dimension">1890.00dp</item>
+	<item type="fraction" name="_526sdp" format="dimension">1893.60dp</item>
+	<item type="fraction" name="_527sdp" format="dimension">1897.20dp</item>
+	<item type="fraction" name="_528sdp" format="dimension">1900.80dp</item>
+	<item type="fraction" name="_529sdp" format="dimension">1904.40dp</item>
+	<item type="fraction" name="_530sdp" format="dimension">1908.00dp</item>
+	<item type="fraction" name="_531sdp" format="dimension">1911.60dp</item>
+	<item type="fraction" name="_532sdp" format="dimension">1915.20dp</item>
+	<item type="fraction" name="_533sdp" format="dimension">1918.80dp</item>
+	<item type="fraction" name="_534sdp" format="dimension">1922.40dp</item>
+	<item type="fraction" name="_535sdp" format="dimension">1926.00dp</item>
+	<item type="fraction" name="_536sdp" format="dimension">1929.60dp</item>
+	<item type="fraction" name="_537sdp" format="dimension">1933.20dp</item>
+	<item type="fraction" name="_538sdp" format="dimension">1936.80dp</item>
+	<item type="fraction" name="_539sdp" format="dimension">1940.40dp</item>
+	<item type="fraction" name="_540sdp" format="dimension">1944.00dp</item>
+	<item type="fraction" name="_541sdp" format="dimension">1947.60dp</item>
+	<item type="fraction" name="_542sdp" format="dimension">1951.20dp</item>
+	<item type="fraction" name="_543sdp" format="dimension">1954.80dp</item>
+	<item type="fraction" name="_544sdp" format="dimension">1958.40dp</item>
+	<item type="fraction" name="_545sdp" format="dimension">1962.00dp</item>
+	<item type="fraction" name="_546sdp" format="dimension">1965.60dp</item>
+	<item type="fraction" name="_547sdp" format="dimension">1969.20dp</item>
+	<item type="fraction" name="_548sdp" format="dimension">1972.80dp</item>
+	<item type="fraction" name="_549sdp" format="dimension">1976.40dp</item>
+	<item type="fraction" name="_550sdp" format="dimension">1980.00dp</item>
+	<item type="fraction" name="_551sdp" format="dimension">1983.60dp</item>
+	<item type="fraction" name="_552sdp" format="dimension">1987.20dp</item>
+	<item type="fraction" name="_553sdp" format="dimension">1990.80dp</item>
+	<item type="fraction" name="_554sdp" format="dimension">1994.40dp</item>
+	<item type="fraction" name="_555sdp" format="dimension">1998.00dp</item>
+	<item type="fraction" name="_556sdp" format="dimension">2001.60dp</item>
+	<item type="fraction" name="_557sdp" format="dimension">2005.20dp</item>
+	<item type="fraction" name="_558sdp" format="dimension">2008.80dp</item>
+	<item type="fraction" name="_559sdp" format="dimension">2012.40dp</item>
+	<item type="fraction" name="_560sdp" format="dimension">2016.00dp</item>
+	<item type="fraction" name="_561sdp" format="dimension">2019.60dp</item>
+	<item type="fraction" name="_562sdp" format="dimension">2023.20dp</item>
+	<item type="fraction" name="_563sdp" format="dimension">2026.80dp</item>
+	<item type="fraction" name="_564sdp" format="dimension">2030.40dp</item>
+	<item type="fraction" name="_565sdp" format="dimension">2034.00dp</item>
+	<item type="fraction" name="_566sdp" format="dimension">2037.60dp</item>
+	<item type="fraction" name="_567sdp" format="dimension">2041.20dp</item>
+	<item type="fraction" name="_568sdp" format="dimension">2044.80dp</item>
+	<item type="fraction" name="_569sdp" format="dimension">2048.40dp</item>
+	<item type="fraction" name="_570sdp" format="dimension">2052.00dp</item>
+	<item type="fraction" name="_571sdp" format="dimension">2055.60dp</item>
+	<item type="fraction" name="_572sdp" format="dimension">2059.20dp</item>
+	<item type="fraction" name="_573sdp" format="dimension">2062.80dp</item>
+	<item type="fraction" name="_574sdp" format="dimension">2066.40dp</item>
+	<item type="fraction" name="_575sdp" format="dimension">2070.00dp</item>
+	<item type="fraction" name="_576sdp" format="dimension">2073.60dp</item>
+	<item type="fraction" name="_577sdp" format="dimension">2077.20dp</item>
+	<item type="fraction" name="_578sdp" format="dimension">2080.80dp</item>
+	<item type="fraction" name="_579sdp" format="dimension">2084.40dp</item>
+	<item type="fraction" name="_580sdp" format="dimension">2088.00dp</item>
+	<item type="fraction" name="_581sdp" format="dimension">2091.60dp</item>
+	<item type="fraction" name="_582sdp" format="dimension">2095.20dp</item>
+	<item type="fraction" name="_583sdp" format="dimension">2098.80dp</item>
+	<item type="fraction" name="_584sdp" format="dimension">2102.40dp</item>
+	<item type="fraction" name="_585sdp" format="dimension">2106.00dp</item>
+	<item type="fraction" name="_586sdp" format="dimension">2109.60dp</item>
+	<item type="fraction" name="_587sdp" format="dimension">2113.20dp</item>
+	<item type="fraction" name="_588sdp" format="dimension">2116.80dp</item>
+	<item type="fraction" name="_589sdp" format="dimension">2120.40dp</item>
+	<item type="fraction" name="_590sdp" format="dimension">2124.00dp</item>
+	<item type="fraction" name="_591sdp" format="dimension">2127.60dp</item>
+	<item type="fraction" name="_592sdp" format="dimension">2131.20dp</item>
+	<item type="fraction" name="_593sdp" format="dimension">2134.80dp</item>
+	<item type="fraction" name="_594sdp" format="dimension">2138.40dp</item>
+	<item type="fraction" name="_595sdp" format="dimension">2142.00dp</item>
+	<item type="fraction" name="_596sdp" format="dimension">2145.60dp</item>
+	<item type="fraction" name="_597sdp" format="dimension">2149.20dp</item>
+	<item type="fraction" name="_598sdp" format="dimension">2152.80dp</item>
+	<item type="fraction" name="_599sdp" format="dimension">2156.40dp</item>
+	<item type="fraction" name="_600sdp" format="dimension">2160.00dp</item>
 </resources>

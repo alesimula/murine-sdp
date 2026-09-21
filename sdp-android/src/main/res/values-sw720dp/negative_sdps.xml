@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="_minus1sdp">-2.40dp</dimen>
-	<dimen name="_minus2sdp">-4.80dp</dimen>
-	<dimen name="_minus3sdp">-7.20dp</dimen>
-	<dimen name="_minus4sdp">-9.60dp</dimen>
-	<dimen name="_minus5sdp">-12.00dp</dimen>
-	<dimen name="_minus6sdp">-14.40dp</dimen>
-	<dimen name="_minus7sdp">-16.80dp</dimen>
-	<dimen name="_minus8sdp">-19.20dp</dimen>
-	<dimen name="_minus9sdp">-21.60dp</dimen>
-	<dimen name="_minus10sdp">-24.00dp</dimen>
-	<dimen name="_minus11sdp">-26.40dp</dimen>
-	<dimen name="_minus12sdp">-28.80dp</dimen>
-	<dimen name="_minus13sdp">-31.20dp</dimen>
-	<dimen name="_minus14sdp">-33.60dp</dimen>
-	<dimen name="_minus15sdp">-36.00dp</dimen>
-	<dimen name="_minus16sdp">-38.40dp</dimen>
-	<dimen name="_minus17sdp">-40.80dp</dimen>
-	<dimen name="_minus18sdp">-43.20dp</dimen>
-	<dimen name="_minus19sdp">-45.60dp</dimen>
-	<dimen name="_minus20sdp">-48.00dp</dimen>
-	<dimen name="_minus21sdp">-50.40dp</dimen>
-	<dimen name="_minus22sdp">-52.80dp</dimen>
-	<dimen name="_minus23sdp">-55.20dp</dimen>
-	<dimen name="_minus24sdp">-57.60dp</dimen>
-	<dimen name="_minus25sdp">-60.00dp</dimen>
-	<dimen name="_minus26sdp">-62.40dp</dimen>
-	<dimen name="_minus27sdp">-64.80dp</dimen>
-	<dimen name="_minus28sdp">-67.20dp</dimen>
-	<dimen name="_minus29sdp">-69.60dp</dimen>
-	<dimen name="_minus30sdp">-72.00dp</dimen>
-	<dimen name="_minus31sdp">-74.40dp</dimen>
-	<dimen name="_minus32sdp">-76.80dp</dimen>
-	<dimen name="_minus33sdp">-79.20dp</dimen>
-	<dimen name="_minus34sdp">-81.60dp</dimen>
-	<dimen name="_minus35sdp">-84.00dp</dimen>
-	<dimen name="_minus36sdp">-86.40dp</dimen>
-	<dimen name="_minus37sdp">-88.80dp</dimen>
-	<dimen name="_minus38sdp">-91.20dp</dimen>
-	<dimen name="_minus39sdp">-93.60dp</dimen>
-	<dimen name="_minus40sdp">-96.00dp</dimen>
-	<dimen name="_minus41sdp">-98.40dp</dimen>
-	<dimen name="_minus42sdp">-100.80dp</dimen>
-	<dimen name="_minus43sdp">-103.20dp</dimen>
-	<dimen name="_minus44sdp">-105.60dp</dimen>
-	<dimen name="_minus45sdp">-108.00dp</dimen>
-	<dimen name="_minus46sdp">-110.40dp</dimen>
-	<dimen name="_minus47sdp">-112.80dp</dimen>
-	<dimen name="_minus48sdp">-115.20dp</dimen>
-	<dimen name="_minus49sdp">-117.60dp</dimen>
-	<dimen name="_minus50sdp">-120.00dp</dimen>
-	<dimen name="_minus51sdp">-122.40dp</dimen>
-	<dimen name="_minus52sdp">-124.80dp</dimen>
-	<dimen name="_minus53sdp">-127.20dp</dimen>
-	<dimen name="_minus54sdp">-129.60dp</dimen>
-	<dimen name="_minus55sdp">-132.00dp</dimen>
-	<dimen name="_minus56sdp">-134.40dp</dimen>
-	<dimen name="_minus57sdp">-136.80dp</dimen>
-	<dimen name="_minus58sdp">-139.20dp</dimen>
-	<dimen name="_minus59sdp">-141.60dp</dimen>
-	<dimen name="_minus60sdp">-144.00dp</dimen>
+	<item type="fraction" name="_minus001sdp" format="dimension">-2.40dp</item>
+	<item type="fraction" name="_minus002sdp" format="dimension">-4.80dp</item>
+	<item type="fraction" name="_minus003sdp" format="dimension">-7.20dp</item>
+	<item type="fraction" name="_minus004sdp" format="dimension">-9.60dp</item>
+	<item type="fraction" name="_minus005sdp" format="dimension">-12.00dp</item>
+	<item type="fraction" name="_minus006sdp" format="dimension">-14.40dp</item>
+	<item type="fraction" name="_minus007sdp" format="dimension">-16.80dp</item>
+	<item type="fraction" name="_minus008sdp" format="dimension">-19.20dp</item>
+	<item type="fraction" name="_minus009sdp" format="dimension">-21.60dp</item>
+	<item type="fraction" name="_minus010sdp" format="dimension">-24.00dp</item>
+	<item type="fraction" name="_minus011sdp" format="dimension">-26.40dp</item>
+	<item type="fraction" name="_minus012sdp" format="dimension">-28.80dp</item>
+	<item type="fraction" name="_minus013sdp" format="dimension">-31.20dp</item>
+	<item type="fraction" name="_minus014sdp" format="dimension">-33.60dp</item>
+	<item type="fraction" name="_minus015sdp" format="dimension">-36.00dp</item>
+	<item type="fraction" name="_minus016sdp" format="dimension">-38.40dp</item>
+	<item type="fraction" name="_minus017sdp" format="dimension">-40.80dp</item>
+	<item type="fraction" name="_minus018sdp" format="dimension">-43.20dp</item>
+	<item type="fraction" name="_minus019sdp" format="dimension">-45.60dp</item>
+	<item type="fraction" name="_minus020sdp" format="dimension">-48.00dp</item>
+	<item type="fraction" name="_minus021sdp" format="dimension">-50.40dp</item>
+	<item type="fraction" name="_minus022sdp" format="dimension">-52.80dp</item>
+	<item type="fraction" name="_minus023sdp" format="dimension">-55.20dp</item>
+	<item type="fraction" name="_minus024sdp" format="dimension">-57.60dp</item>
+	<item type="fraction" name="_minus025sdp" format="dimension">-60.00dp</item>
+	<item type="fraction" name="_minus026sdp" format="dimension">-62.40dp</item>
+	<item type="fraction" name="_minus027sdp" format="dimension">-64.80dp</item>
+	<item type="fraction" name="_minus028sdp" format="dimension">-67.20dp</item>
+	<item type="fraction" name="_minus029sdp" format="dimension">-69.60dp</item>
+	<item type="fraction" name="_minus030sdp" format="dimension">-72.00dp</item>
+	<item type="fraction" name="_minus031sdp" format="dimension">-74.40dp</item>
+	<item type="fraction" name="_minus032sdp" format="dimension">-76.80dp</item>
+	<item type="fraction" name="_minus033sdp" format="dimension">-79.20dp</item>
+	<item type="fraction" name="_minus034sdp" format="dimension">-81.60dp</item>
+	<item type="fraction" name="_minus035sdp" format="dimension">-84.00dp</item>
+	<item type="fraction" name="_minus036sdp" format="dimension">-86.40dp</item>
+	<item type="fraction" name="_minus037sdp" format="dimension">-88.80dp</item>
+	<item type="fraction" name="_minus038sdp" format="dimension">-91.20dp</item>
+	<item type="fraction" name="_minus039sdp" format="dimension">-93.60dp</item>
+	<item type="fraction" name="_minus040sdp" format="dimension">-96.00dp</item>
+	<item type="fraction" name="_minus041sdp" format="dimension">-98.40dp</item>
+	<item type="fraction" name="_minus042sdp" format="dimension">-100.80dp</item>
+	<item type="fraction" name="_minus043sdp" format="dimension">-103.20dp</item>
+	<item type="fraction" name="_minus044sdp" format="dimension">-105.60dp</item>
+	<item type="fraction" name="_minus045sdp" format="dimension">-108.00dp</item>
+	<item type="fraction" name="_minus046sdp" format="dimension">-110.40dp</item>
+	<item type="fraction" name="_minus047sdp" format="dimension">-112.80dp</item>
+	<item type="fraction" name="_minus048sdp" format="dimension">-115.20dp</item>
+	<item type="fraction" name="_minus049sdp" format="dimension">-117.60dp</item>
+	<item type="fraction" name="_minus050sdp" format="dimension">-120.00dp</item>
+	<item type="fraction" name="_minus051sdp" format="dimension">-122.40dp</item>
+	<item type="fraction" name="_minus052sdp" format="dimension">-124.80dp</item>
+	<item type="fraction" name="_minus053sdp" format="dimension">-127.20dp</item>
+	<item type="fraction" name="_minus054sdp" format="dimension">-129.60dp</item>
+	<item type="fraction" name="_minus055sdp" format="dimension">-132.00dp</item>
+	<item type="fraction" name="_minus056sdp" format="dimension">-134.40dp</item>
+	<item type="fraction" name="_minus057sdp" format="dimension">-136.80dp</item>
+	<item type="fraction" name="_minus058sdp" format="dimension">-139.20dp</item>
+	<item type="fraction" name="_minus059sdp" format="dimension">-141.60dp</item>
+	<item type="fraction" name="_minus060sdp" format="dimension">-144.00dp</item>
 </resources>
