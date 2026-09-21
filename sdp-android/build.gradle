@@ -27,6 +27,10 @@ android {
             res.srcDirs("src/main/res")
         }
     }
+
+    publishing {
+        singleVariant('release')
+    }
 }
 
 // Published by JitPack from a git tag: com.github.alesimula:murine-sdp:<tag>
