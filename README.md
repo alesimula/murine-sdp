@@ -1,11 +1,9 @@
-![issues](https://img.shields.io/github/issues/intuit/sdp)
-![Forks](https://img.shields.io/github/forks/intuit/sdp)
-![Stars](https://img.shields.io/github/stars/intuit/sdp)
-![Maven Central](https://img.shields.io/maven-central/v/com.intuit.sdp/sdp-android)
-![License](https://img.shields.io/github/license/intuit/sdp)
+![License](https://img.shields.io/github/license/alesimula/murine-sdp)
 
 # SDP - a scalable size unit
 An android lib that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size. It can help Android developers with supporting multiple screens.
+
+A fork of [intuit/sdp](https://github.com/intuit/sdp) with the same values, packed so that it costs far less space in the app that uses it (especially on light usage). See [Differences from upstream](#differences-from-upstream).
 
 for text views please refer to [ssp](https://github.com/intuit/ssp) which is based on the sp size unit for texts. 
 
@@ -13,13 +11,13 @@ for text views please refer to [ssp](https://github.com/intuit/ssp) which is bas
 Use it carefully! for example, in most cases you still need to design a different layout for tablets.
 
 # Example
-[Here](https://github.com/intuit/sdp/blob/master/sdp-android/src/main/res/layout/sdp_example.xml) is a single layout built using sdp:
+Here is a layout built using sdp:
 
-![sdp example](https://github.com/intuit/sdp/blob/master/sdp_example.png)
+![sdp example](sdp_example.png)
 
-And [here](https://github.com/intuit/sdp/blob/master/sdp-android/src/main/res/layout/dp_example.xml) is the same layout built using dp:
+And here is the same layout built using dp:
 
-![dp example](https://github.com/intuit/sdp/blob/master/dp_example.png)
+![dp example](dp_example.png)
 
 You can see that sdp scales with the screen size and the dp stays with the same size on all screen sizes.
 
@@ -27,18 +25,46 @@ You can see that sdp scales with the screen size and the dp stays with the same 
 
 To add sdp to your project (Using Android Studio and Gradle): 
 
-  add implementation 'com.intuit.sdp:sdp-android:1.1.1' to your build.gradle dependencies block.
+  add implementation 'com.github.alesimula.murine-sdp:sdp-android:1.1.2' to your build.gradle dependencies block.
   
   for example:
   
   ```
   dependencies {
-    implementation 'com.intuit.sdp:sdp-android:1.1.1'
+    implementation 'com.github.alesimula.murine-sdp:sdp-android:1.1.2'
   }
   ```
-See the [sdp_example.xml](https://github.com/intuit/sdp/blob/master/sdp-android/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
+
+Then reference the values by name. Note the `@fraction/` prefix and the zero padding, both of which differ from upstream:
+
+```xml
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@fraction/_042sdp"
+    android:paddingStart="@fraction/_010sdp" />
+```
+
+From code: `resources.getDimensionPixelSize(R.fraction._042sdp)`.
+
+Aliasing one into a `<dimen>` trips lint's `ReferenceType` check. The value really is a dimension, so the warning is a false positive:
+
+```xml
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="search_bar_height" tools:ignore="ReferenceType">@fraction/_042sdp</dimen>
+</resources>
+```
+
+Referencing `@fraction/...` straight from a layout attribute does not trip it.
 
 For easy mapping of designs to sdp units, one can create designs with 300 pixels screen width - in this case each pixel in the design corresponds to 1 sdp.
+
+# Differences from upstream
+
+- Values sit on the `fraction` resource type instead of `dimen`. They are still dimensions (`format="dimension"`); `fraction` is simply a type nothing else tends to use. Every config bucket in `resources.arsc` carries an offset array sized by its type's entry count, so upstream's 28 buckets made every `dimen` in the app pay for all 660 sdp values. In one real app this was 288 KB, against 52 KB here.
+- Names are zero-padded (`_042sdp`, not `_42sdp`). Ids are assigned in sorted name order and the shrinker cuts a type's offset arrays at the highest surviving id, so padding lets the table stop just past the largest value the app uses. 52 KB down to 10 KB in that same app.
+- Negatives (`_minus001sdp`) sort after every positive, so referencing one extends the table past all of them.
+- `src/main/res/values*/` is generated. Change `unit`, `positiveMax` or `negativeMax` in the `createSDP` task in `sdp-android/build.gradle` and run it.
+
 
 # Note
 The sdp size unit calculation includes some approximation due to some performance and usability constraints.
