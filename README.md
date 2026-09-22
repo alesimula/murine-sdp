@@ -36,7 +36,7 @@ allprojects {
 Then add the dependency:
 
 ```gradle
-    implementation 'com.github.alesimula:murine-sdp:1.1.2'
+    implementation 'com.github.alesimula:murine-sdp:1.1.3'
 ```
 
 # Getting Started
